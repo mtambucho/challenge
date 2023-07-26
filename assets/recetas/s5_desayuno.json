@@ -1,0 +1,126 @@
+[
+    {
+        "nombre": "Té verde con limón + Galletas de arroz con hummus + Revuelto de huevos, hongos, tomates cherry, kale y aceitunas negras",
+        "tipo": "desayuno",
+        "semana": 5,
+        "descripcion": "Té verde con limón + 3 galletas de arroz con 1 porción de hummus + revuelto de 2 huevos cocidos, 1⁄4 T de hongos, 5 tomates cherry, puñado de kale, 4 aceitunas negras",
+        "ingredientes": [
+            {
+                "cant": null,
+                "unit": null,
+                "description": "Té verde con limón"
+            },
+            {
+                "cant": 3,
+                "unit": "",
+                "description": "galletas de arroz"
+            },
+            {
+                "cant": 1,
+                "unit": "porción",
+                "description": "hummus"
+            },
+            {
+                "cant": 2,
+                "unit": "",
+                "description": "huevos"
+            },
+            {
+                "cant": 0.25,
+                "unit": "T",
+                "description": "hongos"
+            },
+            {
+                "cant": 5,
+                "unit": "",
+                "description": "tomates cherry"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "kale"
+            },
+            {
+                "cant": 4,
+                "unit": "",
+                "description": "aceitunas negras"
+            }
+        ]
+    },
+    {
+        "nombre": "Smoothie de Whey Protein, Leche, Banana, Café y Mantequilla de maní",
+        "tipo": "colacion",
+        "semana": 4,
+        "descripcion": "Smoothie de 1 scoop de whey protein, 200 ml de leche vegetal o descremada, 1 banana congelada, 1 cta de café, 1 cta de mantequilla de maní",
+        "ingredientes": [
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 200,
+                "unit": "ml",
+                "description": "leche vegetal o descremada"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "banana"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "café"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "mantequilla de maní"
+            }
+        ]
+    },
+    {
+        "nombre": "Té verde con limón + Bowl de yogur, whey protein, avena, almendras, canela y pera",
+        "tipo": "desayuno",
+        "semana": 4,
+        "descripcion": "Té verde con limón + Bowl de 80 ml de yogur, 1 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela y 1⁄2 pera",
+        "ingredientes": [
+            {
+                "cant": null,
+                "unit": null,
+                "description": "Té verde con limón"
+            },
+            {
+                "cant": 80,
+                "unit": "ml",
+                "description": "yogur"
+            },
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 50,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 4,
+                "unit": "",
+                "description": "almendras"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "canela"
+            },
+            {
+                "cant": 0.5,
+                "unit": "pera",
+                "description": "pera"
+            }
+        ]
+    }
+]

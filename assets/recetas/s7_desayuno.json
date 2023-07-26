@@ -1,0 +1,67 @@
+[
+    {
+        "nombre": "Panqueque proteico de chocolate",
+        "tipo": "desayuno",
+        "semana": 7,
+        "descripcion": "Té verde con limón + Panqueque proteico de chocolate",
+        "ingredientes": [
+            {
+                "cant": null,
+                "unit": null,
+                "description": "Té verde con limón"
+            },
+            {
+                "cant": 3.0,
+                "unit": "huevos",
+                "description": null
+            },
+            {
+                "cant": 3.0,
+                "unit": "claras",
+                "description": null
+            },
+            {
+                "cant": 2.0,
+                "unit": "scoops",
+                "description": "whey protein"
+            },
+            {
+                "cant": 2.0,
+                "unit": "ctas",
+                "description": "cacao s/az"
+            },
+            {
+                "cant": 60.0,
+                "unit": "g",
+                "description": "harina de almendras"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "edulcorante"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "polvo de hornear"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "aceite de coco derretido"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cda",
+                "description": "mantequilla de maní (topping)"
+            }
+        ],
+        "receta": [
+            "En un bowl agregar y batir: 3 huevos, 3 claras",
+            "En otro bowl agregar y mezclar: 2 scoops de whey protein, 2 ctas de cacao s/az, 60 g de harina de almendras, 1 cta de edulcorante, 1 cta de polvo de hornear",
+            "Mezclar los huevos con los ingredientes secos y agregar 1 cta de aceite de coco derretido",
+            "En una sartén a fuego medio, coloque 1/3 de la mezcla de panqueque en la sartén y cocinar hasta que aparezcan burbujas en la parte superior, luego dar vuelta y cocinar. Repite con la mezcla restante",
+            "Agregar 1 cda de mantequilla de maní como topping"
+        ]
+    }
+]

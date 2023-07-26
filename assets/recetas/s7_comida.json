@@ -1,0 +1,124 @@
+[
+    {
+        "nombre": "Salteado de lentejas",
+        "tipo": "comida",
+        "semana": 7,
+        "descripcion": "Salteado de lentejas: 100 g de lentejas, 150 g de pechuga de pollo, puñado de espinaca, cebolla, ajo, 1 cucharadita de aceite de oliva, jugo de limón, orégano, pimienta y sal.",
+        "ingredientes": [
+            {
+                "cant": 100.0,
+                "unit": "g",
+                "description": "lentejas"
+            },
+            {
+                "cant": 150.0,
+                "unit": "g",
+                "description": "pechuga de pollo"
+            },
+            {
+                "cant": 1.0,
+                "unit": "puñado",
+                "description": "espinaca"
+            },
+            {
+                "cant": 0.25,
+                "unit": null,
+                "description": "cebolla"
+            },
+            {
+                "cant": 1.0,
+                "unit": "diente",
+                "description": "ajo"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "jugo de limón"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "orégano"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "pimienta"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "sal"
+            }
+        ]
+    },
+    {
+        "nombre": "Pollo al horno",
+        "tipo": "comida",
+        "semana": 7,
+        "descripcion": "Pollo al horno con vegetales asados y ensalada",
+        "ingredientes": [
+            {
+                "cant": 100.0,
+                "unit": "g",
+                "description": "pechuga de pollo (peso crudo)"
+            },
+            {
+                "cant": 100.0,
+                "unit": "g",
+                "description": "brócoli"
+            },
+            {
+                "cant": 0.5,
+                "unit": null,
+                "description": "choclo"
+            },
+            {
+                "cant": 80.0,
+                "unit": "g",
+                "description": "calabaza"
+            },
+            {
+                "cant": 0.5,
+                "unit": null,
+                "description": "cebolla"
+            },
+            {
+                "cant": 35.0,
+                "unit": "g",
+                "description": "porotos blancos (peso cocido)"
+            },
+            {
+                "cant": null,
+                "unit": "puñado",
+                "description": "perejil"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "ajo picado"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "pimienta"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "sal"
+            }
+        ],
+        "receta": []
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "Torta Proteica",
+        "tipo": "colacion",
+        "semana": 1,
+        "descripcion": "Té verde con limón + 1 porción de torta proteica",
+        "ingredientes": [
+            {
+                "cant": 2,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 65,
+                "unit": "g",
+                "description": "harina de almendras"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "polvo de hornear"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "miel"
+            },
+            {
+                "cant": 120,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 2,
+                "unit": "ctas",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "vainilla"
+            },
+            {
+                "cant": 40,
+                "unit": "ml",
+                "description": "agua"
+            },
+            {
+                "cant": 60,
+                "unit": "g",
+                "description": "frutos rojos"
+            }
+        ],
+        "receta": [
+            "Precalentar el horno a 180°C.",
+            "En un bowl agregar y mezclar: 2 scoop de whey protein, 65 g de harina de almendras, 1 cta de polvo de hornear",
+            "En otro bowl agregar y mezclar: 1 cda de miel, 120 ml leche de almendras, 2 ctas de aceite de oliva, 1 cta de vainilla, 40 ml de agua.",
+            "Mezclar los ingredientes secos con los húmedos.",
+            "Verter la mezcla en una asadera y agregar 60 g de frambuesas o frutos rojos congelados.",
+            "Llevar al horno por 25 minutos o hasta que esté cocida.",
+            "Dividir en 5 porciones.",
+            "Servir y comer cuando corresponde, el resto de las porciones guardar en heladera."
+        ]
+    }
+]

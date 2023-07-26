@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Té verde con mix de frutos secos",
+        "tipo": "merienda",
+        "semana": 2,
+        "descripcion": "Té verde con limón + Mix de frutos secos: 10 almendras, 10 castañas de cajú, 2 cdas de pasas de uva.",
+        "ingredientes": [
+            {
+                "cant": 10,
+                "unit": "",
+                "description": "almendras"
+            },
+            {
+                "cant": 10,
+                "unit": "",
+                "description": "castañas de cajú"
+            },
+            {
+                "cant": 2,
+                "unit": "cdas",
+                "description": "pasas de uva"
+            }
+        ]
+    },
+    {
+        "nombre": "Té verde + trufa de chocolate",
+        "tipo": "merienda",
+        "semana": 2,
+        "descripcion": "Remojar: 6 dátiles Medjool (90 g) por 5 minutos\n2. Agregar y procesar: los dátiles previamente remojados, 100 g de avellanas, 1 cta de cacao, 1 scoop de whey protein, 1 cda de aceite de coco, 1 1⁄2 cda de miel, 2 ctas de agua.\n3. Armar 5 trufas\n4. Refrigerar.\n5. Servir y comer cuando se indique.",
+        "ingredientes": [
+            {
+                "cant": 6,
+                "unit": "",
+                "description": "dátiles Medjool"
+            },
+            {
+                "cant": 100,
+                "unit": "g",
+                "description": "avellanas"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "cacao"
+            },
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "aceite de coco"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "miel"
+            },
+            {
+                "cant": 2,
+                "unit": "ctas",
+                "description": "agua"
+            }
+        ]
+    }
+]

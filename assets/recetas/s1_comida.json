@@ -1,0 +1,254 @@
+[
+    {
+        "nombre": "Ensalada de Pollo",
+        "tipo": "almuerzo",
+        "semana": 1,
+        "descripcion": "Ensalada de: 170 g de garbanzos (peso cocido), 200 g de pechuga de pollo en cubos (peso crudo), 2 T de kale picado, 1 diente de ajo picado, 1 cta de aceite de oliva, jugo de limón, orégano, pimienta y sal",
+        "ingredientes": [
+            {
+                "cant": 170,
+                "unit": "g",
+                "description": "garbanzos"
+            },
+            {
+                "cant": 200,
+                "unit": "g",
+                "description": "pechuga de pollo en cubos"
+            },
+            {
+                "cant": 2,
+                "unit": "T",
+                "description": "kale"
+            },
+            {
+                "cant": 1,
+                "unit": "diente",
+                "description": "ajo"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "limón"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "orégano"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "pimienta"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "sal"
+            }
+        ]
+    },
+    {
+        "nombre": "Salmon al horno con vegetales",
+        "tipo": "almuerzo",
+        "semana": 1,
+        "descripcion": "150 g de salmón al horno condimentado con: jugo de lima, pimienta, 1⁄2 diente de ajo, 1⁄2 cta de aceite de oliva + Vegetales al horno: 1⁄4 de cebolla, 6 tomates cherry, medio atado de espárragos, 2 dientes de ajo, sal",
+        "ingredientes": [
+            {
+                "cant": 150,
+                "unit": "g",
+                "description": "salmón"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "limon"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "pimienta"
+            },
+            {
+                "cant": 2.5,
+                "unit": "diente",
+                "description": "ajo"
+            },
+            {
+                "cant": 0.5,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "cebolla"
+            },
+            {
+                "cant": 6,
+                "unit": "",
+                "description": "tomates cherry"
+            },
+            {
+                "cant": 0.5,
+                "unit": "atado",
+                "description": "espárragos"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "sal"
+            }
+        ]
+    },
+    {
+        "nombre": "Bowl de Carne",
+        "tipo": "cena",
+        "semana": 1,
+        "descripcion": "Bowl de: 140 g de carne picada (peso crudo), 60 g de porotos negros (peso cocido), 75 g de choclo, 1⁄2 morrón, 1⁄4 de cebolla picada, 1⁄4 T de salsa de tomate, 1 diente de ajo, 1 cta de aceite de oliva, jugo de limón, pimentón, comino, pimienta y sal + Topping de: 1⁄4 de palta en cubos, puñado de cilantro.",
+        "ingredientes": [
+            {
+                "cant": 140,
+                "unit": "g",
+                "description": "carne picada"
+            },
+            {
+                "cant": 60,
+                "unit": "g",
+                "description": "porotos negros"
+            },
+            {
+                "cant": 75,
+                "unit": "g",
+                "description": "choclo"
+            },
+            {
+                "cant": 0.5,
+                "unit": "",
+                "description": "morrón"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "cebolla"
+            },
+            {
+                "cant": 0.25,
+                "unit": "T",
+                "description": "salsa de tomate"
+            },
+            {
+                "cant": 1,
+                "unit": "diente",
+                "description": "ajo"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "limón"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "pimentón"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "comino"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "pimienta"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "sal"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "palta"
+            },
+            {
+                "cant": 1,
+                "unit": "puñado",
+                "description": "cilantro"
+            }
+        ]
+    },
+    {
+        "nombre": "Wok de Pollo",
+        "tipo": "cena",
+        "semana": 1,
+        "descripcion": "Wok de: 140 g de pechuga de pollo en cubos (peso crudo), 40 g de arroz integral (peso crudo) 2 T de repollo , 1⁄4 de zanahoria rallada, 20 g de arvejas, 1⁄4 de cebolla picada, jengibre rallado, ajo picado, cilantro seco, 1 cta de salsa de soja + Topping de 1 huevo cocido.",
+        "ingredientes": [
+            {
+                "cant": 140,
+                "unit": "g",
+                "description": "pechuga"
+            },
+            {
+                "cant": 40,
+                "unit": "g",
+                "description": "arroz integral"
+            },
+            {
+                "cant": 2,
+                "unit": "T",
+                "description": "repollo"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "zanahoria"
+            },
+            {
+                "cant": 20,
+                "unit": "g",
+                "description": "arvejas"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "cebolla"
+            },
+            {
+                "cant": 0.0,
+                "unit": "",
+                "description": "jengibre"
+            },
+            {
+                "cant": 1,
+                "unit": "diente",
+                "description": "ajo"
+            },
+            {
+                "cant": 0.0,
+                "unit": "",
+                "description": "cilantro"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "salsa de soja"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "huevo"
+            }
+        ]
+    }
+]

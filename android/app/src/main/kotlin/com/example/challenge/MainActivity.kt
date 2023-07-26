@@ -1,0 +1,6 @@
+package com.uppercut.challenge
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

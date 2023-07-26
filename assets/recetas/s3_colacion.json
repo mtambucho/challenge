@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Té verde con limón + Barrita de mantequilla de maní",
+        "tipo": "colacion",
+        "semana": 3,
+        "descripcion": "Té verde con limón + Barrita de mantequilla de maní",
+        "ingredientes": [
+            {
+                "cant": 60,
+                "unit": "g",
+                "description": "dátiles Medjool"
+            },
+            {
+                "cant": 50,
+                "unit": "g",
+                "description": "mantequilla de maní"
+            },
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "miel"
+            },
+            {
+                "cant": 20,
+                "unit": "g",
+                "description": "harina de almendras"
+            },
+            {
+                "cant": 60,
+                "unit": "ml",
+                "description": "agua"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "canela"
+            },
+            {
+                "cant": 60,
+                "unit": "g",
+                "description": "avena"
+            }
+        ],
+        "receta": [
+            "Remojar 4 dátiles Medjool (60g).",
+            "En un bowl, agregar y procesar: los dátiles remojados, 50g de mantequilla de maní, 1 scoop de whey protein, 1 cda de miel, 20g de harina de almendras (puedes procesar almendras), 60ml de agua, canela y reservar.",
+            "Posteriormente, a la mezcla previamente realizada, agregar y mezclar 60g de avena.",
+            "Colocar la mezcla en una asadera y marcar en forma de barrita.",
+            "Llevar a la heladera por 1 hora o hasta que estén firmes.",
+            "Servir y comer cuando corresponda."
+        ]
+    }
+]

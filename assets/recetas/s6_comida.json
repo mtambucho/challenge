@@ -1,0 +1,66 @@
+[
+    {
+        "nombre": "Wok de carne, pasta integral y vegetales",
+        "tipo": "comida",
+        "semana": 7,
+        "descripcion": "Wok de carne, pasta integral y vegetales",
+        "ingredientes": [
+            {
+                "cant": 125.0,
+                "unit": "g",
+                "description": "carne"
+            },
+            {
+                "cant": 50.0,
+                "unit": "g",
+                "description": "pasta integral"
+            },
+            {
+                "cant": 175.0,
+                "unit": "g",
+                "description": "brócoli"
+            },
+            {
+                "cant": 0.5,
+                "unit": null,
+                "description": "morrón"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "ajo"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "jengibre"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "salsa de soja"
+            },
+            {
+                "cant": 2.0,
+                "unit": "ctas",
+                "description": "semillas de sésamo"
+            }
+        ],
+        "receta": [
+            "En un wok o sartén grande, calentar el aceite de oliva.",
+            "Agregar la carne en tiras y cocinar hasta que esté dorada.",
+            "Agregar el ajo picado y el jengibre rallado y cocinar por unos minutos.",
+            "Agregar el brócoli y el morrón cortados en trozos.",
+            "Cocinar hasta que los vegetales estén tiernos pero aún crujientes.",
+            "Agregar la pasta integral cocida según las instrucciones del paquete.",
+            "Incorporar la salsa de soja y las semillas de sésamo.",
+            "Mezclar bien todos los ingredientes y cocinar por unos minutos más.",
+            "Servir caliente y disfrutar."
+        ]
+    }
+]

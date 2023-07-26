@@ -1,0 +1,88 @@
+[
+  {
+    "nombre": "Té verde con limón + Trufa proteica de canela",
+    "tipo": "colacion",
+    "semana": 5,
+    "descripcion": "Té verde con limón + Trufa proteica de canela",
+    "ingredientes": [
+      {
+        "cant": null,
+        "unit": null,
+        "description": "Té verde con limón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "Trufa proteica de canela"
+      },
+      {
+        "cant": 80,
+        "unit": "g",
+        "description": "dátiles Medjool"
+      },
+      {
+        "cant": 20,
+        "unit": "g",
+        "description": "mantequilla de maní"
+      },
+      {
+        "cant": 70,
+        "unit": "g",
+        "description": "puré de calabaza"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "canela"
+      },
+      {
+        "cant": 2,
+        "unit": "scoops",
+        "description": "whey protein"
+      },
+      {
+        "cant": 70,
+        "unit": "g",
+        "description": "castañas de cajú"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pizca de sal"
+      }
+    ],
+    "receta": [
+      "Procesar todos los ingredientes: 80 g (4 unidades) de dátiles Medjool (sin carozo, previamente remojados), 20 g de mantequilla de maní, 70 g de puré de calabaza, canela, 2 scoops de whey protein, 70 g de castañas de cajú, pizca de sal.",
+      "Armar 5 trufas y rodarlas por coco rallado.",
+      "Refrigerar y servir cuando corresponda."
+    ]
+  },
+  {
+    "nombre": "Batido de proteínas",
+    "tipo": "colacion",
+    "semana": 4,
+    "descripcion": "Batido de: 1 scoop de whey protein, 200 ml de agua, 1 banana chica y hielo",
+    "ingredientes": [
+      {
+        "cant": 1,
+        "unit": "scoop",
+        "description": "whey protein"
+      },
+      {
+        "cant": 200,
+        "unit": "ml",
+        "description": "agua"
+      },
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "banana chica"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "hielo"
+      }
+    ]
+  }
+]

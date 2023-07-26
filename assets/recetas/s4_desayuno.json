@@ -1,0 +1,70 @@
+[
+    {
+        "nombre": "Crumble de Manzana",
+        "tipo": "colacion",
+        "semana": null,
+        "descripcion": "Crumble de manzana Rinde 3 porciones",
+        "ingredientes": [
+            {
+                "cant": 375.0,
+                "unit": "g",
+                "description": "manzana en cubos"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "vainilla"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "nuez moscada"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "canela"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "agua"
+            },
+            {
+                "cant": 180.0,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 30.0,
+                "unit": "g",
+                "description": "semillas de girasol"
+            },
+            {
+                "cant": 25.0,
+                "unit": "g",
+                "description": "almendras picadas"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cda",
+                "description": "aceite de coco derretido"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cda",
+                "description": "miel"
+            }
+        ],
+        "receta": [
+            "Precalentar el horno a 180°C.",
+            "En una olla colocar los cubos de manzana, la vainilla, la nuez moscada y la canela.",
+            "Cubrir con suficiente agua y llevar a hervor por unos 10 minutos o hasta que las manzanas estén blandas. Reservar.",
+            "En un bowl, mezclar la avena, las semillas de girasol, las almendras picadas, el aceite de coco derretido y la miel. Reservar.",
+            "En un recipiente apto para horno, colocar las manzanas cocidas y cubrir con la mezcla de avena y frutos secos.",
+            "Llevar al horno por 25 minutos o hasta que esté dorado.",
+            "Dividir en 3 porciones.",
+            "Servir y disfrutar cuando corresponda."
+        ]
+    }
+]

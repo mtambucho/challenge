@@ -1,0 +1,264 @@
+[
+    {
+        "nombre": "Galletas de arroz con huevos",
+        "tipo": "desayuno",
+        "semana": 2,
+        "descripcion": "Té verde con limón + 3 galletas de arroz con revuelto de: 2 huevos, 1 clara, 1⁄4 de morrón, 1⁄4 de tomate picado, 4 aceitunas negras, 25 g de ricotta, 1 cta de aceite de oliva, pimienta y sal.",
+        "ingredientes": [
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "Té verde"
+            },
+            {
+                "cant": 3.0,
+                "unit": "",
+                "description": "galletas de arroz"
+            },
+            {
+                "cant": 2.0,
+                "unit": "",
+                "description": "huevos"
+            },
+            {
+                "cant": 1.0,
+                "unit": "",
+                "description": "clara"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "morrón"
+            },
+            {
+                "cant": 0.25,
+                "unit": "",
+                "description": "tomate"
+            },
+            {
+                "cant": 4.0,
+                "unit": "",
+                "description": "aceitunas negras"
+            },
+            {
+                "cant": 25.0,
+                "unit": "g",
+                "description": "ricotta"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "pimienta"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "sal"
+            }
+        ]
+    },
+    {
+        "nombre": "Bowl de yogurt con whey",
+        "tipo": "desayuno",
+        "semana": 2,
+        "descripcion": "Té verde con limón + Bowl de: 80 ml de yogur, 1⁄2 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela, 70 g de frutillas picadas.",
+        "ingredientes": [
+            {
+                "cant": 80,
+                "unit": "ml",
+                "description": "yogurt"
+            },
+            {
+                "cant": 0.5,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 50,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 4,
+                "unit": "",
+                "description": "almendras"
+            },
+            {
+                "cant": 70,
+                "unit": "g",
+                "description": "frutillas"
+            }
+        ]
+    },
+    {
+        "nombre": "Porridge de Whey",
+        "tipo": "desayuno",
+        "semana": 2,
+        "descripcion": "Té verde + porridge de whey",
+        "receta": [
+            "En una ollita llevar a hervir: 200 ml de leche de almendras, 75 ml de agua, 50 g de avena, cocinar por 3-4 minutos.",
+            "Posteriormente agregar y mezclar: 1 1⁄2 cda de whey protein, 1 nuez entera picada.",
+            "Cocinar durante 5 minutos o hasta espesar.",
+            "Servir en un bowl y agregar: topping de: 2 ctas de cacao, 1 cta de miel, 1 cta de agua, canela."
+        ],
+        "ingredientes": [
+            {
+                "cant": 200,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 75,
+                "unit": "ml",
+                "description": "agua"
+            },
+            {
+                "cant": 50,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "nuez"
+            },
+            {
+                "cant": 2,
+                "unit": "ctas",
+                "description": "cacao"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "miel"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "agua"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "canela"
+            }
+        ]
+    },
+    {
+        "nombre": "Smoothie",
+        "tipo": "desayuno",
+        "semana": 2,
+        "descripcion": "Smoothie: 1 1⁄2 scoop de whey protein, 250 ml de leche de almendras o agua, 40 ml de yogurt, 1 cta de café, 1 banana congelada, 1 cda de semillas de chia, 1 cta de semilla de girasol.",
+        "ingredientes": [
+            {
+                "cant": 1.5,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 250,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 40,
+                "unit": "ml",
+                "description": "yogurt"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "café"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "banana"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "semillas de chia"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "semilla de girasol"
+            }
+        ]
+    },
+    {
+        "nombre": "Panqueques de canela",
+        "tipo": "desayuno",
+        "semana": 2,
+        "descripcion": "Té verde con limón + Panqueques de canela",
+        "ingredientes": [
+            {
+                "cant": null,
+                "unit": null,
+                "description": "Té verde con limón"
+            },
+            {
+                "cant": 90,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "polvo de hornear"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "canela"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "huevo"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 100,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "miel"
+            },
+            {
+                "cant": 0.5,
+                "unit": "",
+                "description": "banana"
+            }
+        ],
+        "receta": [
+            "Procesar: 90g de avena, 1 scoop de whey protein, 1 cta de polvo de hornear, canela, 1 huevo, 1 cta de aceite de oliva, 100ml de leche de almendras.",
+            "En una sartén a fuego medio, coloque 1⁄4 de la mezcla de panqueque en la sartén y cocinar hasta que aparezcan burbujas en la parte superior, luego dar vuelta y cocinar. Repite con la mezcla restante.",
+            "Servir 2 panqueques por porción y agregar topping de: 1⁄2 cta de miel y 1⁄2 banana en rodajas.",
+            "Refrigere la porción restante para el día que se indica."
+        ]
+    }
+]

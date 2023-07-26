@@ -1,0 +1,148 @@
+[
+    {
+        "semana": 2,
+        "nombre": "Batido de whey con frutillas",
+        "tipo": "colacion",
+        "descripcion": "Batido de: 1 scoop de whey protein, 250 ml de leche de almendras o agua , 100 ml de agua , 100 g de frutillas (+ 10 almendras si se consume con agua)",
+        "ingredientes": [
+            {
+                "cant": 1.0,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 250.0,
+                "unit": "ml",
+                "description": "leche de almendras o agua"
+            },
+            {
+                "cant": 100.0,
+                "unit": "ml",
+                "description": "agua"
+            },
+            {
+                "cant": 100.0,
+                "unit": "g",
+                "description": "frutillas"
+            },
+            {
+                "cant": 10.0,
+                "unit": "",
+                "description": "almendras"
+            }
+        ]
+    },
+    {
+        "semana": 2,
+        "nombre": "Banana con mantequilla de maní",
+        "tipo": "colacion",
+        "descripcion": "Té verde con limón + 1 banana chica (100 g) c/ 2 cdas de mantequilla de mani",
+        "ingredientes": [
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "Té verde"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "banana"
+            },
+            {
+                "cant": 2.0,
+                "unit": "cdas",
+                "description": "mantequilla de mani"
+            }
+        ]
+    },
+    {
+        "nombre": "Trufa de chocolate",
+        "tipo": "colacion",
+        "semana": 2,
+        "descripcion": "Remojar: 6 dátiles Medjool (90 g) por 5 minutos\n2. Agregar y procesar: los dátiles previamente remojados, 100 g de avellanas, 1 cta de cacao, 1 scoop de whey protein, 1 cda de aceite de coco, 1 1⁄2 cda de miel, 2 ctas de agua.\n3. Armar 5 trufas\n4. Refrigerar.\n5. Servir y comer cuando se indique.",
+        "ingredientes": [
+            {
+                "cant": 6,
+                "unit": "",
+                "description": "dátiles Medjool"
+            },
+            {
+                "cant": 100,
+                "unit": "g",
+                "description": "avellanas"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "cacao"
+            },
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "aceite de coco"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "miel"
+            },
+            {
+                "cant": 2,
+                "unit": "ctas",
+                "description": "agua"
+            }
+        ]
+    },
+    {
+        "nombre": "Batido de Whey con banana",
+        "tipo": "colacion",
+        "semana": 2,
+        "descripcion": "Batido de: 1 scoop y 1 cta de whey protein, 250 ml de leche de almendras, 1⁄2 banana, 1⁄4 de taza de yogurt, 1 1⁄2 cda de chía, 1 cta de café, hielo",
+        "ingredientes": [
+            {
+                "cant": 1,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "whey protein"
+            },
+            {
+                "cant": 250,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 0.5,
+                "description": "banana"
+            },
+            {
+                "cant": 0.25,
+                "unit": "taza",
+                "description": "yogurt"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "chía"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "café"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "hielo"
+            }
+        ]
+    }
+]

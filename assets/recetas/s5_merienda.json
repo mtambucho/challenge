@@ -1,0 +1,76 @@
+[
+  {
+    "nombre": "Té verde con limón y bastones de apio o pepino y zanahoria con hummus",
+    "tipo": "merienda",
+    "semana": 5,
+    "descripcion": "Té verde con limón y bastones de apio o pepino y zanahoria con hummus",
+    "ingredientes": [
+      {
+        "cant": null,
+        "unit": null,
+        "description": "Té verde con limón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "Bastones de apio o pepino y zanahoria"
+      },
+      {
+        "cant": 1,
+        "unit": "porción",
+        "description": "Hummus"
+      }
+    ],
+    "receta": [
+      "Procesar: 280 g de garbanzos (peso cocido), 2 ctas de aceite de oliva, jugo de limón, pimentón, pimienta y sal.",
+      "Dividir en 5 porciones.",
+      "Servir y comer cuando corresponda."
+    ]
+  },
+  {
+    "nombre": "Té verde con limón y mix de frutos secos",
+    "tipo": "merienda",
+    "semana": 4,
+    "descripcion": "Té verde con limón y mix de frutos secos",
+    "ingredientes": [
+      {
+        "cant": 10,
+        "unit": null,
+        "description": "Almendras"
+      },
+      {
+        "cant": 10,
+        "unit": null,
+        "description": "Castañas de cajú"
+      },
+      {
+        "cant": 2,
+        "unit": "cdas",
+        "description": "Pasas de uva"
+      }
+    ]
+  },
+  {
+    "nombre": "Batido de whey protein",
+    "tipo": "merienda",
+    "semana": 4,
+    "descripcion": "Batido de whey protein",
+    "ingredientes": [
+      {
+        "cant": 1,
+        "unit": "scoop",
+        "description": "Whey protein"
+      },
+      {
+        "cant": 200,
+        "unit": "ml",
+        "description": "Agua"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "Hielo"
+      }
+    ]
+  }
+]

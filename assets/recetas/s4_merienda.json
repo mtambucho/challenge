@@ -1,0 +1,64 @@
+[
+    {
+        "nombre": "Brownie Proteico",
+        "tipo": "postre",
+        "semana": null,
+        "descripcion": "Brownie proteico Rinde 5 porciones",
+        "ingredientes": [
+            {
+                "cant": 2.0,
+                "unit": "cdas",
+                "description": "cacao"
+            },
+            {
+                "cant": 2.0,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 65.0,
+                "unit": "g",
+                "description": "harina de almendras"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "polvo de hornear"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cda",
+                "description": "miel"
+            },
+            {
+                "cant": 120.0,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 2.0,
+                "unit": "ctas",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 1.0,
+                "unit": "cta",
+                "description": "vainilla"
+            },
+            {
+                "cant": 40.0,
+                "unit": "ml",
+                "description": "agua"
+            }
+        ],
+        "receta": [
+            "Precalentar el horno a 180°C.",
+            "En un bowl, agregar y mezclar el cacao, el whey protein, la harina de almendras y el polvo de hornear.",
+            "En otro bowl, agregar y mezclar la miel, la leche de almendras, el aceite de oliva, la vainilla y el agua.",
+            "Mezclar los ingredientes secos con los ingredientes húmedos hasta obtener una mezcla homogénea.",
+            "Verter la mezcla en una asadera y llevar al horno por 25 minutos o hasta que esté cocida.",
+            "Dividir en 5 porciones.",
+            "Servir y disfrutar cuando corresponda. Guardar el resto de las porciones en la heladera."
+        ]
+    }
+]

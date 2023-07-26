@@ -1,0 +1,628 @@
+[
+  {
+    "nombre": "Wok de pollo con pasta integral y verduras",
+    "tipo": "comida",
+    "semana": 5,
+    "descripcion": "Wok de. 240 g de pechuga de pollo en cubos (peso crudo), 35 g de pasta integral (peso crudo), puñado de espinaca picada, 1 T de repollo, 1⁄2 morrón, 1⁄2 tomate picado, 1⁄4 de cebolla picada, pimienta, sal",
+    "ingredientes": [
+      {
+        "cant": 240,
+        "unit": "g",
+        "description": "pechuga de pollo"
+      },
+      {
+        "cant": 35,
+        "unit": "g",
+        "description": "pasta integral"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "espinaca"
+      },
+      {
+        "cant": 1,
+        "unit": "T",
+        "description": "repollo"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "morrón"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "tomate"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "cebolla"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      }
+    ]
+  },
+  {
+    "nombre": "Hamburguesas de pollo con vegetales + Ensalada de mix de verdes",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Hamburguesas de pollo con vegetales + Ensalada de mix de verdes",
+    "ingredientes": [
+      {
+        "cant": 250,
+        "unit": "g",
+        "description": "pechuga de pollo"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "cebolla picada"
+      },
+      {
+        "cant": 50,
+        "unit": "g",
+        "description": "salvado de avena"
+      },
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "huevo"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "perejil picado"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "comino"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimentón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      },
+      {
+        "cant": 150,
+        "unit": "g",
+        "description": "coliflor"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "zucchini"
+      },
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "zanahoria"
+      },
+      {
+        "cant": 100,
+        "unit": "g",
+        "description": "chauchas"
+      },
+      {
+        "cant": 100,
+        "unit": "g",
+        "description": "arvejas"
+      }
+    ],
+    "receta": [
+      "En un bowl agregar y mezclar: 250 g de pechuga de pollo picada (peso crudo), 1⁄4 de cebolla picada, 50 g de salvado de avena, 1 huevo, perejil picado, 1 cta de aceite de oliva, pimienta, comino, pimentón, sal.",
+      "Formar 4 hamburguesas y refrigerar por 30 minutos.",
+      "Precalentar el horno a 200°C.",
+      "En una asadera colocar las hamburguesas y agregar 150 g de coliflor, 1⁄2 zucchini en cubos, 1 zanahoria en rodajas, 100 g de chauchas, 100 g de arvejas.",
+      "Cocinar por 15-20 minutos o hasta que esté cocido.",
+      "Dividir en dos porciones.",
+      "Servir y comer cuando corresponda."
+    ]
+  },
+  {
+    "nombre": "Churrasco de carne a la plancha + Ensalada",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Churrasco de carne a la plancha + Ensalada",
+    "ingredientes": [
+      {
+        "cant": 140,
+        "unit": "g",
+        "description": "churrasco de carne"
+      },
+      {
+        "cant": 40,
+        "unit": "g",
+        "description": "quinoa"
+      },
+      {
+        "cant": 60,
+        "unit": "g",
+        "description": "choclo"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "cebolla"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": 1.5,
+        "unit": "cda",
+        "description": "queso blanco"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "cilantro"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jugo de limón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      }
+    ]
+  },
+  {
+    "nombre": "Zoodles con Tuco",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Zoodles de zucchini con Tuco",
+    "ingredientes": [
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "zucchini"
+      },
+      {
+        "cant": 150,
+        "unit": "g",
+        "description": "pechuga de pollo picada"
+      },
+      {
+        "cant": 85,
+        "unit": "g",
+        "description": "porotos negros cocidos"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "cebolla de verdeo"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "morrón"
+      },
+      {
+        "cant": 0.5,
+        "unit": "T",
+        "description": "salsa de tomate"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "curcuma"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "comino"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "palta en cubos"
+      }
+    ]
+  },
+  {
+    "nombre": "Churrasco de carne con papas al horno y ensalada",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Churrasco de carne con papas al horno y ensalada",
+    "ingredientes": [
+      {
+        "cant": 120,
+        "unit": "g",
+        "description": "churrasco de carne crudo"
+      },
+      {
+        "cant": 170,
+        "unit": "g",
+        "description": "papa al horno"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "ajo picado"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimentón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "morrón en cubos"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "cebolla en cubos"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "mix de verdes"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "perejil"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "menta"
+      },
+      {
+        "cant": 10,
+        "unit": null,
+        "description": "tomates cherry"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "pepino"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jugo de limón"
+      },
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "porción de hummus"
+      }
+    ]
+  },
+  {
+    "nombre": "Churrasco de carne con papas al horno y ensalada",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Churrasco de carne con papas al horno y ensalada",
+    "ingredientes": [
+      {
+        "cant": 120,
+        "unit": "g",
+        "description": "churrasco de carne"
+      },
+      {
+        "cant": 170,
+        "unit": "g",
+        "description": "papa al horno"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "ajo"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimentón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "morrón"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "cebolla"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "mix de verdes"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "perejil"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "menta"
+      },
+      {
+        "cant": 10,
+        "unit": null,
+        "description": "tomates cherry"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "pepino"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jugo de limón"
+      },
+      {
+        "cant": 1,
+        "unit": null,
+        "description": "porción de hummus"
+      }
+    ]
+  },
+  {
+    "nombre": "Bowl de salmón a la plancha",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Bowl de salmón a la plancha",
+    "ingredientes": [
+      {
+        "cant": 80,
+        "unit": "g",
+        "description": "salmón"
+      },
+      {
+        "cant": 40,
+        "unit": "g",
+        "description": "arroz integral"
+      },
+      {
+        "cant": 35,
+        "unit": "g",
+        "description": "edamame"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "mix de verdes"
+      },
+      {
+        "cant": 0.5,
+        "unit": null,
+        "description": "zanahoria rallada"
+      },
+      {
+        "cant": 50,
+        "unit": null,
+        "description": "coliflor"
+      },
+      {
+        "cant": 8,
+        "unit": null,
+        "description": "tomates cherry"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "salsa de soja"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "semillas de sésamo"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jugo de limón"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jengibre rallado"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "ajo picado"
+      }
+    ]
+  },
+  {
+    "nombre": "Pechuga de pollo con vegetales al horno",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Pechuga de pollo con vegetales al horno",
+    "ingredientes": [
+      {
+        "cant": 140,
+        "unit": "g",
+        "description": "pechuga de pollo"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "zanahoria rallada"
+      },
+      {
+        "cant": 1,
+        "unit": "T",
+        "description": "repollo violeta"
+      },
+      {
+        "cant": 150,
+        "unit": "g",
+        "description": "papa"
+      },
+      {
+        "cant": 0.25,
+        "unit": null,
+        "description": "pepino"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "menta picada"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "cilantro"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jengibre rallado"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "jugo de limón"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "salsa de soja"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "semillas de sésamo"
+      }
+    ]
+  },
+  {
+    "nombre": "Carne de cerdo a la plancha con puré de boniato y chauchas",
+    "tipo": "comida",
+    "semana": 4,
+    "descripcion": "Carne de cerdo a la plancha con puré de boniato y chauchas",
+    "ingredientes": [
+      {
+        "cant": 150,
+        "unit": "g",
+        "description": "carne de cerdo"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "ajo"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "mostaza dijon"
+      },
+      {
+        "cant": 1,
+        "unit": "cta",
+        "description": "aceite de oliva"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "pimienta"
+      },
+      {
+        "cant": null,
+        "unit": null,
+        "description": "sal"
+      },
+      {
+        "cant": 250,
+        "unit": "g",
+        "description": "boniato"
+      },
+      {
+        "cant": 120,
+        "unit": "g",
+        "description": "chauchas hervidas"
+      }
+    ]
+  }
+]

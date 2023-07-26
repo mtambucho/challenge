@@ -1,0 +1,105 @@
+[
+    {
+        "nombre": "Batido de Chocolate y Plátano",
+        "tipo": "desayuno",
+        "semana": 1,
+        "descripcion": "Batido de: 2 ctas de cacao, 1 1⁄2 cda de whey protein, 1 banana, 1 1⁄2 cda de mantequilla de maní, 300 ml de leche de coco, hielo",
+        "ingredientes": [
+            {
+                "cant": 2,
+                "unit": "ctas",
+                "description": "cacao"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "",
+                "description": "banana"
+            },
+            {
+                "cant": 1.5,
+                "unit": "cda",
+                "description": "mantequilla de maní"
+            },
+            {
+                "cant": 300,
+                "unit": "ml",
+                "description": "leche de coco"
+            },
+            {
+                "cant": 0,
+                "unit": "",
+                "description": "hielo"
+            }
+        ]
+    },
+    {
+        "nombre": "Panqueques de manzana",
+        "tipo": "desayuno",
+        "rendimiento": 2,
+        "descripcion": "Té verde con limón + Panqueques de manzana",
+        "ingredientes": [
+            {
+                "cant": null,
+                "unit": null,
+                "description": "Té verde con limón"
+            },
+            {
+                "cant": 100,
+                "unit": "g",
+                "description": "avena"
+            },
+            {
+                "cant": 1.5,
+                "unit": "scoop",
+                "description": "whey protein"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "polvo de hornear"
+            },
+            {
+                "cant": null,
+                "unit": null,
+                "description": "canela"
+            },
+            {
+                "cant": 2,
+                "unit": "",
+                "description": "huevos"
+            },
+            {
+                "cant": 1,
+                "unit": "cta",
+                "description": "aceite de oliva"
+            },
+            {
+                "cant": 130,
+                "unit": "ml",
+                "description": "leche de almendras"
+            },
+            {
+                "cant": 1,
+                "unit": "cda",
+                "description": "mantequilla de maní"
+            },
+            {
+                "cant": 0.5,
+                "unit": "",
+                "description": "manzana"
+            }
+        ],
+        "receta": [
+            "Procesar: 100 g de avena, 1,5 scoops de whey protein, 1 cta de polvo de hornear, canela, 1 huevo, 1 claras, 1 cta de aceite de oliva, 130 ml de leche de almendras,",
+            "Agregar y mezclar: 1⁄2 manzana rallada..",
+            "En una sartén a fuego medio, coloque 1⁄2 de la mezcla de panqueque en la sartén y cocinar hasta que aparezcan burbujas en la parte superior, luego dar vuelta y cocinar. Repite con la mezcla restante.",
+            "Servir 1 panqueque por porción y agregar topping de: 1 cta de mantequilla de maní",
+            "Refrigere la porción restante para el día que se indica."
+        ]
+    }
+]
