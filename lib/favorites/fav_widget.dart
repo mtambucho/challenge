@@ -1,5 +1,6 @@
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/services/local_storage_manager.dart';
+import 'package:challenge/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -41,7 +42,12 @@ class FavRecipeWidget extends ConsumerWidget {
           fav.addRecipe(recipe);
         }
       },
-      icon: isFavorite ? const Icon(Icons.star) : const Icon(Icons.star_border),
+      icon: isFavorite
+          ? const Icon(
+              Icons.star,
+              color: AppColors.golden,
+            )
+          : const Icon(Icons.star_border),
     );
   }
 }

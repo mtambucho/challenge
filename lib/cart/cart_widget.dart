@@ -19,10 +19,13 @@ class CartWidget extends ConsumerWidget {
         context.pushNamed(Routes.cart);
       },
       icon: Stack(
+        clipBehavior: Clip.none,
         children: [
-          const Padding(
-            padding: EdgeInsets.all(4.0),
-            child: Icon(Icons.shopping_cart),
+          Padding(
+            padding: const EdgeInsets.all(4.0),
+            child: Icon(cart.isNotEmpty
+                ? Icons.shopping_cart
+                : Icons.shopping_cart_outlined),
           ),
           if (cart.isNotEmpty)
             Positioned(

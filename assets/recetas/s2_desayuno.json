@@ -1,9 +1,10 @@
 [
     {
         "nombre": "Galletas de arroz con huevos",
-        "tipo": "desayuno",
-        "semana": 2,
-        "descripcion": "Té verde con limón + 3 galletas de arroz con revuelto de: 2 huevos, 1 clara, 1⁄4 de morrón, 1⁄4 de tomate picado, 4 aceitunas negras, 25 g de ricotta, 1 cta de aceite de oliva, pimienta y sal.",
+        "descripcion": "Té verde con limón + 3 galletas de arroz con huevos",
+        "receta": [
+            "Té verde con limón + 3 galletas de arroz con revuelto de: 2 huevos, 1 clara, 1⁄4 de morrón, 1⁄4 de tomate picado, 4 aceitunas negras, 25 g de ricotta, 1 cta de aceite de oliva, pimienta y sal."
+        ],
         "ingredientes": [
             {
                 "cant": 0,
@@ -64,9 +65,10 @@
     },
     {
         "nombre": "Bowl de yogurt con whey",
-        "tipo": "desayuno",
-        "semana": 2,
-        "descripcion": "Té verde con limón + Bowl de: 80 ml de yogur, 1⁄2 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela, 70 g de frutillas picadas.",
+        "descripcion": "Té verde con limón + Bowl de: 80 ml de yogur, con whey protein, avena, almendras, y frutillas.",
+        "receta": [
+            "Té verde con limón + Bowl de: 80 ml de yogur, 1⁄2 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela, 70 g de frutillas picadas."
+        ],
         "ingredientes": [
             {
                 "cant": 80,
@@ -97,8 +99,6 @@
     },
     {
         "nombre": "Porridge de Whey",
-        "tipo": "desayuno",
-        "semana": 2,
         "descripcion": "Té verde + porridge de whey",
         "receta": [
             "En una ollita llevar a hervir: 200 ml de leche de almendras, 75 ml de agua, 50 g de avena, cocinar por 3-4 minutos.",
@@ -155,10 +155,11 @@
         ]
     },
     {
-        "nombre": "Smoothie",
-        "tipo": "desayuno",
-        "semana": 2,
-        "descripcion": "Smoothie: 1 1⁄2 scoop de whey protein, 250 ml de leche de almendras o agua, 40 ml de yogurt, 1 cta de café, 1 banana congelada, 1 cda de semillas de chia, 1 cta de semilla de girasol.",
+        "nombre": "Smoothie de whey y banana",
+        "descripcion": "Smoothie de  whey protein,  leche de almendras,  yogurt y banana congelada.",
+        "receta": [
+            "Smoothie: 1 1⁄2 scoop de whey protein, 250 ml de leche de almendras o agua, 40 ml de yogurt, 1 cta de café, 1 banana congelada, 1 cda de semillas de chia, 1 cta de semilla de girasol."
+        ],
         "ingredientes": [
             {
                 "cant": 1.5,
@@ -199,8 +200,7 @@
     },
     {
         "nombre": "Panqueques de canela",
-        "tipo": "desayuno",
-        "semana": 2,
+        "rendimiento": 2,
         "descripcion": "Té verde con limón + Panqueques de canela",
         "ingredientes": [
             {

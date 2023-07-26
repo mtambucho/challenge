@@ -1,9 +1,10 @@
 [
     {
-        "semana": 2,
         "nombre": "Batido de whey con frutillas",
-        "tipo": "colacion",
-        "descripcion": "Batido de: 1 scoop de whey protein, 250 ml de leche de almendras o agua , 100 ml de agua , 100 g de frutillas (+ 10 almendras si se consume con agua)",
+        "descripcion": "Batido de whey, leche de almendras, frutillas y almendras",
+        "receta": [
+            "Batido de: 1 scoop de whey protein, 250 ml de leche de almendras o agua, 100 ml de agua, 100 g de frutillas (+ 10 almendras si se consume con agua)"
+        ],
         "ingredientes": [
             {
                 "cant": 1.0,
@@ -33,10 +34,9 @@
         ]
     },
     {
-        "semana": 2,
         "nombre": "Banana con mantequilla de maní",
-        "tipo": "colacion",
-        "descripcion": "Té verde con limón + 1 banana chica (100 g) c/ 2 cdas de mantequilla de mani",
+        "descripcion": "Té verde con limón + banana chicay mantequilla de mani",
+        "receta": "Té verde con limón + 1 banana chica (100 g) c/ 2 cdas de mantequilla de mani",
         "ingredientes": [
             {
                 "cant": 1,
@@ -57,9 +57,11 @@
     },
     {
         "nombre": "Trufa de chocolate",
-        "tipo": "colacion",
-        "semana": 2,
-        "descripcion": "Remojar: 6 dátiles Medjool (90 g) por 5 minutos\n2. Agregar y procesar: los dátiles previamente remojados, 100 g de avellanas, 1 cta de cacao, 1 scoop de whey protein, 1 cda de aceite de coco, 1 1⁄2 cda de miel, 2 ctas de agua.\n3. Armar 5 trufas\n4. Refrigerar.\n5. Servir y comer cuando se indique.",
+        "rendimiento": 5,
+        "descripcion": "Trufa de dátiles, avellanas y whey protein,",
+        "receta": [
+            "Remojar: 6 dátiles Medjool (90 g) por 5 minutos\n2. Agregar y procesar: los dátiles previamente remojados, 100 g de avellanas, 1 cta de cacao, 1 scoop de whey protein, 1 cda de aceite de coco, 1 1⁄2 cda de miel, 2 ctas de agua.\n3. Armar 5 trufas\n4. Refrigerar.\n5. Servir y comer cuando se indique."
+        ],
         "ingredientes": [
             {
                 "cant": 6,
@@ -100,9 +102,10 @@
     },
     {
         "nombre": "Batido de Whey con banana",
-        "tipo": "colacion",
-        "semana": 2,
-        "descripcion": "Batido de: 1 scoop y 1 cta de whey protein, 250 ml de leche de almendras, 1⁄2 banana, 1⁄4 de taza de yogurt, 1 1⁄2 cda de chía, 1 cta de café, hielo",
+        "descripcion": "Batido de whey protein, leche de almendras, banana y yogurt",
+        "receta": [
+            "Batido de: 1 scoop y 1 cta de whey protein, 250 ml de leche de almendras, 1⁄2 banana, 1⁄4 de taza de yogurt, 1 1⁄2 cda de chía, 1 cta de café, hielo"
+        ],
         "ingredientes": [
             {
                 "cant": 1,

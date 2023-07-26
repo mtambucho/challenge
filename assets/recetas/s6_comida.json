@@ -1,8 +1,6 @@
 [
     {
-        "nombre": "Wok de carne, pasta integral y vegetales",
-        "tipo": "comida",
-        "semana": 7,
+        "nombre": "Wok de carne con pasta integral",
         "descripcion": "Wok de carne, pasta integral y vegetales",
         "ingredientes": [
             {

@@ -1,9 +1,10 @@
 [
   {
     "nombre": "Wok de pollo con pasta integral y verduras",
-    "tipo": "comida",
-    "semana": 5,
-    "descripcion": "Wok de. 240 g de pechuga de pollo en cubos (peso crudo), 35 g de pasta integral (peso crudo), puñado de espinaca picada, 1 T de repollo, 1⁄2 morrón, 1⁄2 tomate picado, 1⁄4 de cebolla picada, pimienta, sal",
+    "descripcion": "Wok de  pollo con pasta integral, espinaca, repollo, morrón y tomate",
+    "receta": [
+      "Wok de. 240 g de pechuga de pollo en cubos (peso crudo), 35 g de pasta integral (peso crudo), puñado de espinaca picada, 1 T de repollo, 1⁄2 morrón, 1⁄2 tomate picado, 1⁄4 de cebolla picada, pimienta, sal"
+    ],
     "ingredientes": [
       {
         "cant": 240,
@@ -53,10 +54,9 @@
     ]
   },
   {
-    "nombre": "Hamburguesas de pollo con vegetales + Ensalada de mix de verdes",
-    "tipo": "comida",
-    "semana": 4,
+    "nombre": "Hamburguesas de pollo con vegetales",
     "descripcion": "Hamburguesas de pollo con vegetales + Ensalada de mix de verdes",
+    "rendimiento": 2,
     "ingredientes": [
       {
         "cant": 250,
@@ -145,10 +145,11 @@
     ]
   },
   {
-    "nombre": "Churrasco de carne a la plancha + Ensalada",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Churrasco de carne a la plancha + Ensalada",
+    "nombre": "Churrasco de carne a la plancha",
+    "descripcion": "Churrasco de carne a la plancha con quinoa y choclo",
+    "receta": [
+      "Churrasco de carne a la plancha con quinoa, choclo, cebolla queso blanco y cilantro"
+    ],
     "ingredientes": [
       {
         "cant": 140,
@@ -203,68 +204,11 @@
     ]
   },
   {
-    "nombre": "Zoodles con Tuco",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Zoodles de zucchini con Tuco",
-    "ingredientes": [
-      {
-        "cant": 1,
-        "unit": null,
-        "description": "zucchini"
-      },
-      {
-        "cant": 150,
-        "unit": "g",
-        "description": "pechuga de pollo picada"
-      },
-      {
-        "cant": 85,
-        "unit": "g",
-        "description": "porotos negros cocidos"
-      },
-      {
-        "cant": 0.5,
-        "unit": null,
-        "description": "cebolla de verdeo"
-      },
-      {
-        "cant": 0.5,
-        "unit": null,
-        "description": "morrón"
-      },
-      {
-        "cant": 0.5,
-        "unit": "T",
-        "description": "salsa de tomate"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "aceite de oliva"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "curcuma"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "comino"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "palta en cubos"
-      }
-    ]
-  },
-  {
-    "nombre": "Churrasco de carne con papas al horno y ensalada",
-    "tipo": "comida",
-    "semana": 4,
+    "nombre": "Churrasco de carne con papas",
     "descripcion": "Churrasco de carne con papas al horno y ensalada",
+    "receta": [
+      "Churrasco de carne con papas al horno y ensalada de mix de verdes, tomate, pepino, perejil y menta"
+    ],
     "ingredientes": [
       {
         "cant": 120,
@@ -349,98 +293,11 @@
     ]
   },
   {
-    "nombre": "Churrasco de carne con papas al horno y ensalada",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Churrasco de carne con papas al horno y ensalada",
-    "ingredientes": [
-      {
-        "cant": 120,
-        "unit": "g",
-        "description": "churrasco de carne"
-      },
-      {
-        "cant": 170,
-        "unit": "g",
-        "description": "papa al horno"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "aceite de oliva"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "ajo"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "pimentón"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "pimienta"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "sal"
-      },
-      {
-        "cant": 0.5,
-        "unit": null,
-        "description": "morrón"
-      },
-      {
-        "cant": 0.25,
-        "unit": null,
-        "description": "cebolla"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "mix de verdes"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "perejil"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "menta"
-      },
-      {
-        "cant": 10,
-        "unit": null,
-        "description": "tomates cherry"
-      },
-      {
-        "cant": 0.5,
-        "unit": null,
-        "description": "pepino"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "jugo de limón"
-      },
-      {
-        "cant": 1,
-        "unit": null,
-        "description": "porción de hummus"
-      }
-    ]
-  },
-  {
     "nombre": "Bowl de salmón a la plancha",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Bowl de salmón a la plancha",
+    "descripcion": "Bowl de salmón a la plancha con mix de verdes, zanahoria y edemame",
+    "receta": [
+      "Bowl de salmón a la plancha con mix de verdes, zanahoria y edemame"
+    ],
     "ingredientes": [
       {
         "cant": 80,
@@ -506,122 +363,6 @@
         "cant": null,
         "unit": null,
         "description": "ajo picado"
-      }
-    ]
-  },
-  {
-    "nombre": "Pechuga de pollo con vegetales al horno",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Pechuga de pollo con vegetales al horno",
-    "ingredientes": [
-      {
-        "cant": 140,
-        "unit": "g",
-        "description": "pechuga de pollo"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "zanahoria rallada"
-      },
-      {
-        "cant": 1,
-        "unit": "T",
-        "description": "repollo violeta"
-      },
-      {
-        "cant": 150,
-        "unit": "g",
-        "description": "papa"
-      },
-      {
-        "cant": 0.25,
-        "unit": null,
-        "description": "pepino"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "menta picada"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "cilantro"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "jengibre rallado"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "jugo de limón"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "salsa de soja"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "pimienta"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "semillas de sésamo"
-      }
-    ]
-  },
-  {
-    "nombre": "Carne de cerdo a la plancha con puré de boniato y chauchas",
-    "tipo": "comida",
-    "semana": 4,
-    "descripcion": "Carne de cerdo a la plancha con puré de boniato y chauchas",
-    "ingredientes": [
-      {
-        "cant": 150,
-        "unit": "g",
-        "description": "carne de cerdo"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "ajo"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "mostaza dijon"
-      },
-      {
-        "cant": 1,
-        "unit": "cta",
-        "description": "aceite de oliva"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "pimienta"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "sal"
-      },
-      {
-        "cant": 250,
-        "unit": "g",
-        "description": "boniato"
-      },
-      {
-        "cant": 120,
-        "unit": "g",
-        "description": "chauchas hervidas"
       }
     ]
   }

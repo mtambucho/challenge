@@ -1,9 +1,8 @@
 [
     {
         "nombre": "Brownie Proteico",
-        "tipo": "postre",
-        "semana": null,
-        "descripcion": "Brownie proteico Rinde 5 porciones",
+        "rendimiento": 5,
+        "descripcion": "Brownie proteico de chocolate",
         "ingredientes": [
             {
                 "cant": 2.0,

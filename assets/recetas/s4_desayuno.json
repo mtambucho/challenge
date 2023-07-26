@@ -1,9 +1,8 @@
 [
     {
         "nombre": "Crumble de Manzana",
-        "tipo": "colacion",
-        "semana": null,
-        "descripcion": "Crumble de manzana Rinde 3 porciones",
+        "rendimiento": 3,
+        "descripcion": "Crumble de manzana",
         "ingredientes": [
             {
                 "cant": 375.0,

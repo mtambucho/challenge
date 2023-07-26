@@ -1,9 +1,10 @@
 [
     {
-        "nombre": "Ensalada de Pollo",
-        "tipo": "almuerzo",
-        "semana": 1,
-        "descripcion": "Ensalada de: 170 g de garbanzos (peso cocido), 200 g de pechuga de pollo en cubos (peso crudo), 2 T de kale picado, 1 diente de ajo picado, 1 cta de aceite de oliva, jugo de limón, orégano, pimienta y sal",
+        "nombre": "Ensalada de pollo y garbanzos",
+        "descripcion": "Ensalada de pollo y garbanzos con kale",
+        "receta": [
+            "Ensalada de: 170 g de garbanzos (peso cocido), 200 g de pechuga de pollo en cubos (peso crudo), 2 T de kale picado, 1 diente de ajo picado, 1 cta de aceite de oliva, jugo de limón, orégano, pimienta y sal"
+        ],
         "ingredientes": [
             {
                 "cant": 170,
@@ -54,9 +55,10 @@
     },
     {
         "nombre": "Salmon al horno con vegetales",
-        "tipo": "almuerzo",
-        "semana": 1,
-        "descripcion": "150 g de salmón al horno condimentado con: jugo de lima, pimienta, 1⁄2 diente de ajo, 1⁄2 cta de aceite de oliva + Vegetales al horno: 1⁄4 de cebolla, 6 tomates cherry, medio atado de espárragos, 2 dientes de ajo, sal",
+        "descripcion": "Salmón al horno condimentado con cebolla, cherrys y espárragos",
+        "receta": [
+            "150 g de salmón al horno condimentado con: jugo de lima, pimienta, 1⁄2 diente de ajo, 1⁄2 cta de aceite de oliva + Vegetales al horno: 1⁄4 de cebolla, 6 tomates cherry, medio atado de espárragos, 2 dientes de ajo, sal"
+        ],
         "ingredientes": [
             {
                 "cant": 150,
@@ -107,9 +109,10 @@
     },
     {
         "nombre": "Bowl de Carne",
-        "tipo": "cena",
-        "semana": 1,
-        "descripcion": "Bowl de: 140 g de carne picada (peso crudo), 60 g de porotos negros (peso cocido), 75 g de choclo, 1⁄2 morrón, 1⁄4 de cebolla picada, 1⁄4 T de salsa de tomate, 1 diente de ajo, 1 cta de aceite de oliva, jugo de limón, pimentón, comino, pimienta y sal + Topping de: 1⁄4 de palta en cubos, puñado de cilantro.",
+        "descripcion": "Bowl de carne, porotos y choclo",
+        "receta": [
+            "Bowl de: 140 g de carne picada (peso crudo), 60 g de porotos negros (peso cocido), 75 g de choclo, 1⁄2 morrón, 1⁄4 de cebolla picada, 1⁄4 T de salsa de tomate, 1 diente de ajo, 1 cta de aceite de oliva, jugo de limón, pimentón, comino, pimienta y sal + Topping de: 1⁄4 de palta en cubos, puñado de cilantro."
+        ],
         "ingredientes": [
             {
                 "cant": 140,
@@ -190,9 +193,10 @@
     },
     {
         "nombre": "Wok de Pollo",
-        "tipo": "cena",
-        "semana": 1,
-        "descripcion": "Wok de: 140 g de pechuga de pollo en cubos (peso crudo), 40 g de arroz integral (peso crudo) 2 T de repollo , 1⁄4 de zanahoria rallada, 20 g de arvejas, 1⁄4 de cebolla picada, jengibre rallado, ajo picado, cilantro seco, 1 cta de salsa de soja + Topping de 1 huevo cocido.",
+        "descripcion": "Wok de pollo con arroz integral, zanahoria,  arvejas,y huevo",
+        "receta": [
+            "Wok de: 140 g de pechuga de pollo en cubos (peso crudo), 40 g de arroz integral (peso crudo) 2 T de repollo, 1⁄4 de zanahoria rallada, 20 g de arvejas, 1⁄4 de cebolla picada, jengibre rallado, ajo picado, cilantro seco, 1 cta de salsa de soja + Topping de 1 huevo cocido."
+        ],
         "ingredientes": [
             {
                 "cant": 140,

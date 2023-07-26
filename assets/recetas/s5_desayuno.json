@@ -1,9 +1,10 @@
 [
     {
-        "nombre": "Té verde con limón + Galletas de arroz con hummus + Revuelto de huevos, hongos, tomates cherry, kale y aceitunas negras",
-        "tipo": "desayuno",
-        "semana": 5,
-        "descripcion": "Té verde con limón + 3 galletas de arroz con 1 porción de hummus + revuelto de 2 huevos cocidos, 1⁄4 T de hongos, 5 tomates cherry, puñado de kale, 4 aceitunas negras",
+        "nombre": "Té verde con limón + galletas de arroz",
+        "descripcion": "Té verde con limón y galletas de arroz con hummus con huevos y hongos",
+        "receta": [
+            "Té verde con limón + 3 galletas de arroz con 1 porción de hummus + revuelto de 2 huevos cocidos, 1⁄4 T de hongos, 5 tomates cherry, puñado de kale, 4 aceitunas negras"
+        ],
         "ingredientes": [
             {
                 "cant": null,
@@ -48,10 +49,11 @@
         ]
     },
     {
-        "nombre": "Smoothie de Whey Protein, Leche, Banana, Café y Mantequilla de maní",
-        "tipo": "colacion",
-        "semana": 4,
-        "descripcion": "Smoothie de 1 scoop de whey protein, 200 ml de leche vegetal o descremada, 1 banana congelada, 1 cta de café, 1 cta de mantequilla de maní",
+        "nombre": "Smoothie de whey Protein y banana",
+        "descripcion": "Smoothie de whey protein,leche de almendras y banana",
+        "receta": [
+            "Smoothie de 1 scoop de whey protein, 200 ml de leche vegetal o descremada, 1 banana congelada, 1 cta de café, 1 cta de mantequilla de maní"
+        ],
         "ingredientes": [
             {
                 "cant": 1,
@@ -81,10 +83,11 @@
         ]
     },
     {
-        "nombre": "Té verde con limón + Bowl de yogur, whey protein, avena, almendras, canela y pera",
-        "tipo": "desayuno",
-        "semana": 4,
-        "descripcion": "Té verde con limón + Bowl de 80 ml de yogur, 1 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela y 1⁄2 pera",
+        "nombre": "Bowl de yogurt",
+        "descripcion": "Té verde con limón + bowl de yogurt, whey y avena",
+        "receta": [
+            "Té verde con limón + Bowl de 80 ml de yogurt, 1 scoop de whey protein, 50 g de avena, 4 almendras picadas, canela y 1⁄2 pera"
+        ],
         "ingredientes": [
             {
                 "cant": null,
@@ -94,7 +97,7 @@
             {
                 "cant": 80,
                 "unit": "ml",
-                "description": "yogur"
+                "description": "yogurt"
             },
             {
                 "cant": 1,

@@ -1,9 +1,8 @@
 [
     {
         "nombre": "Té verde con limón + trufa de dátiles",
-        "tipo": "colacion",
-        "semana": 7,
-        "descripcion": "Té verde con limón + trufa de dátiles, rinde 5 porciones",
+        "rendimiento": 5,
+        "descripcion": "Té verde con limón + trufa de dátiles",
         "ingredientes": [
             {
                 "cant": 120.0,
@@ -48,10 +47,9 @@
         ]
     },
     {
-        "nombre": "Trufas de chocolate",
-        "tipo": "colacion",
-        "semana": 7,
-        "descripcion": "Té verde con limón + Trufa de chocolate, Rinde 5 porciones",
+        "nombre": "Trufas de chocolate con nueces",
+        "rendimiento": 5,
+        "descripcion": "Té verde con limón + Trufa de chocolate con harina de coco y nueces",
         "ingredientes": [
             {
                 "cant": null,

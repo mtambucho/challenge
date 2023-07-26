@@ -1,5 +1,5 @@
-import 'package:challenge/utils/colors.dart';
 import 'package:challenge/utils/router.dart';
+import 'package:challenge/utils/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -27,23 +27,6 @@ Future<void> main() async {
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
-  get appThemeData => ThemeData(
-        primarySwatch: AppColors.primary,
-        fontFamily: 'Gilroy',
-        brightness: Brightness.light,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
-          elevation: 1,
-          titleTextStyle: TextStyle(
-            color: Colors.black,
-            fontFamily: 'Gilroy',
-          ),
-          iconTheme:
-              IconThemeData(color: Colors.black), // set icon color to black
-        ),
-      );
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final goRouter = ref.watch(goRouterProvider);
@@ -53,8 +36,7 @@ class MyApp extends ConsumerWidget {
       routerConfig: goRouter,
       title: AppStrings.appName,
       debugShowCheckedModeBanner: false,
-      theme: appThemeData,
-      darkTheme: appThemeData,
+      theme: AppTheme().appThemeData,
     );
   }
 }

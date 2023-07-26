@@ -22,10 +22,12 @@ class CartProvider extends StateNotifier<List<CartItem>> {
   int get totalItems => state.length;
 
   ///create a function to add ingredients to the cart
-  void addItem(Recipe recipe) {
+  void addOrRemoveItem(Recipe recipe) {
     ///check if the item recipe exist in the cart increment the count
     if (state.any((element) => element.recipe.name == recipe.name)) {
-      return;
+      ///remove from state
+      state =
+          state.where((element) => element.recipe.name != recipe.name).toList();
     }
 
     ///create a new item

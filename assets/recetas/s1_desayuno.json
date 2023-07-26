@@ -1,9 +1,10 @@
 [
     {
         "nombre": "Batido de Chocolate y Plátano",
-        "tipo": "desayuno",
-        "semana": 1,
-        "descripcion": "Batido de: 2 ctas de cacao, 1 1⁄2 cda de whey protein, 1 banana, 1 1⁄2 cda de mantequilla de maní, 300 ml de leche de coco, hielo",
+        "descripcion": "Batido de chocolate, whey protein, banana,  mantequilla de maní, leche de coco y hielo",
+        "receta": [
+            "Batido de 2 ctas de cacao, 1 1⁄2 cda de whey protein, 1 banana, 1 1⁄2 cda de mantequilla de maní, 300 ml de leche de coco, hielo"
+        ],
         "ingredientes": [
             {
                 "cant": 2,

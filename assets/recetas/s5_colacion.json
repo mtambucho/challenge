@@ -1,8 +1,7 @@
 [
   {
-    "nombre": "Té verde con limón + Trufa proteica de canela",
-    "tipo": "colacion",
-    "semana": 5,
+    "nombre": "Trufa proteica de canela",
+    "rendimiento": 5,
     "descripcion": "Té verde con limón + Trufa proteica de canela",
     "ingredientes": [
       {
@@ -55,34 +54,6 @@
       "Procesar todos los ingredientes: 80 g (4 unidades) de dátiles Medjool (sin carozo, previamente remojados), 20 g de mantequilla de maní, 70 g de puré de calabaza, canela, 2 scoops de whey protein, 70 g de castañas de cajú, pizca de sal.",
       "Armar 5 trufas y rodarlas por coco rallado.",
       "Refrigerar y servir cuando corresponda."
-    ]
-  },
-  {
-    "nombre": "Batido de proteínas",
-    "tipo": "colacion",
-    "semana": 4,
-    "descripcion": "Batido de: 1 scoop de whey protein, 200 ml de agua, 1 banana chica y hielo",
-    "ingredientes": [
-      {
-        "cant": 1,
-        "unit": "scoop",
-        "description": "whey protein"
-      },
-      {
-        "cant": 200,
-        "unit": "ml",
-        "description": "agua"
-      },
-      {
-        "cant": 1,
-        "unit": null,
-        "description": "banana chica"
-      },
-      {
-        "cant": null,
-        "unit": null,
-        "description": "hielo"
-      }
     ]
   }
 ]

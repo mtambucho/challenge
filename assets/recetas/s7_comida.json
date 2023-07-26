@@ -1,9 +1,10 @@
 [
     {
         "nombre": "Salteado de lentejas",
-        "tipo": "comida",
-        "semana": 7,
-        "descripcion": "Salteado de lentejas: 100 g de lentejas, 150 g de pechuga de pollo, puñado de espinaca, cebolla, ajo, 1 cucharadita de aceite de oliva, jugo de limón, orégano, pimienta y sal.",
+        "descripcion": "Salteado de lentejas con pechuga de pollo y espinaca.",
+        "receta": [
+            "Salteado de lentejas: 100 g de lentejas, 150 g de pechuga de pollo, puñado de espinaca, cebolla, ajo, 1 cucharadita de aceite de oliva, jugo de limón, orégano, pimienta y sal."
+        ],
         "ingredientes": [
             {
                 "cant": 100.0,
@@ -59,9 +60,10 @@
     },
     {
         "nombre": "Pollo al horno",
-        "tipo": "comida",
-        "semana": 7,
         "descripcion": "Pollo al horno con vegetales asados y ensalada",
+        "receta": [
+            "Pollo al horno con brócoli, choclo, calabaza, cebolla, porotos blancos, perejil, ajo, aceite de oliva, pimienta y sal."
+        ],
         "ingredientes": [
             {
                 "cant": 100.0,
@@ -118,7 +120,6 @@
                 "unit": null,
                 "description": "sal"
             }
-        ],
-        "receta": []
+        ]
     }
 ]

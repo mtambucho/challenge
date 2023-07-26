@@ -75,7 +75,7 @@ class _RecipeDetailsScreenState extends State<RecipeDetailsScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    widget.recipe.description,
+                    widget.recipe.name,
                     style: RecipeDetailsStyles.titleStyle,
                   ),
                   RecipeDetailsIcons(
@@ -89,13 +89,13 @@ class _RecipeDetailsScreenState extends State<RecipeDetailsScreen> {
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 children: [
-                  if (widget.recipe.receta != null &&
-                      (widget.recipe.receta?.isNotEmpty ?? false))
-                    RecepyDetailsRecipe(recipe: widget.recipe),
                   IngredientsWidget(
                     recipe: widget.recipe,
                     people: people,
                   ),
+                  if (widget.recipe.receta != null &&
+                      (widget.recipe.receta?.isNotEmpty ?? false))
+                    RecepyDetailsRecipe(recipe: widget.recipe),
                 ],
               ),
             )

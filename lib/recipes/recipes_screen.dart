@@ -28,7 +28,10 @@ class RecipesScreen extends ConsumerWidget {
         showFav: true,
       ),
       body: recipes.when(
-        data: (r) => RecipesList(r, type),
+        data: (r) => RecipesList(r, type, (recipe) {
+          context.push(Routes.recipeDetails,
+              extra: {'recipe': recipe, 'mealType': type});
+        }),
         loading: () => const CircularProgressIndicator(),
         error: (error, stackTrace) => Text(error.toString()),
       ),
@@ -37,8 +40,9 @@ class RecipesScreen extends ConsumerWidget {
 }
 
 class RecipesList extends ConsumerWidget {
-  const RecipesList(this.recipes, this.type, {super.key});
+  const RecipesList(this.recipes, this.type, this.onSelected, {super.key});
   final List<Recipe> recipes;
+  final void Function(Recipe) onSelected;
   final MealType type;
 
   @override
@@ -73,14 +77,16 @@ class RecipesList extends ConsumerWidget {
         itemBuilder: (context, index) {
           final itemInCart = cart.firstWhereOrNull(
               (element) => element.recipe.name == recetas[index].name);
-          return RecipesItem(
-            receta: recetas[index],
-            onTap: () {
-              context.push(Routes.recipeDetails,
-                  extra: {'recipe': recetas[index], 'mealType': type});
-            },
-            color: type.color(),
-            inCart: itemInCart != null,
+          return Column(
+            children: [
+              RecipesItem(
+                receta: recetas[index],
+                onTap: () => onSelected.call(recetas[index]),
+                color: type.color(),
+                inCart: itemInCart != null,
+              ),
+              if (index != recetas.length - 1) const Divider(),
+            ],
           );
         });
   }

@@ -1,8 +1,6 @@
 [
     {
-        "nombre": "Té verde con limón + Barrita de mantequilla de maní",
-        "tipo": "colacion",
-        "semana": 3,
+        "nombre": "Barrita de mantequilla de maní",
         "descripcion": "Té verde con limón + Barrita de mantequilla de maní",
         "ingredientes": [
             {

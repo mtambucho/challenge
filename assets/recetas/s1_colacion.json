@@ -1,8 +1,7 @@
 [
     {
         "nombre": "Torta Proteica",
-        "tipo": "colacion",
-        "semana": 1,
+        "rendimiento": 5,
         "descripcion": "Té verde con limón + 1 porción de torta proteica",
         "ingredientes": [
             {

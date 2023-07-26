@@ -1,9 +1,10 @@
 [
     {
-        "nombre": "Galletas de Arroz con Palta",
-        "tipo": "merienda",
-        "semana": 1,
-        "descripcion": "Té verde con limón + 2 galletas de arroz con: 1⁄2 palta pisada, 1⁄4 de tomate picado, jugo de limón, ajo picado, pimienta y sal.",
+        "nombre": "Galletas de arroz con guacamole",
+        "descripcion": "Té verde con limón + galletas de arroz con guacamole",
+        "receta": [
+            "Té verde con limón + 2 galletas de arroz con: 1⁄2 palta pisada, 1⁄4 de tomate picado, jugo de limón, ajo picado, pimienta y sal."
+        ],
         "ingredientes": [
             {
                 "cant": 0,

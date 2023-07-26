@@ -104,10 +104,12 @@ class CartButton extends ConsumerWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 24.0),
       child: ElevatedButton(
-        onPressed: () {
-          ///use go router to navigate to shopping list screen
-          context.pushNamed(Routes.shoppingList);
-        },
+        onPressed: enabled
+            ? () {
+                ///use go router to navigate to shopping list screen
+                context.pushNamed(Routes.shoppingList);
+              }
+            : null,
 
         ///rounded borders
         style: ElevatedButton.styleFrom(

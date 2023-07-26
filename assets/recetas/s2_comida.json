@@ -1,9 +1,10 @@
 [
     {
         "nombre": "Wok de pollo con arroz integral",
-        "tipo": "cena",
-        "semana": 2,
-        "descripcion": "Wok de: 40 g de arroz integral (peso crudo), 150 g de pechuga de pollo (peso crudo), 1⁄2 cebolla de verdeo, 1⁄2 morrón, 1⁄4 de zanahoria rallada, 60 g de arvejas, 1 cta de aceite de oliva, 1 cta de salsa de soja, ajo picado, jengibre rallado + Topping de: 1⁄2 huevo duro.",
+        "descripcion": "Wok de arroz integral, pollo, arvejas, y huevo.",
+        "receta": [
+            "Wok de: 40 g de arroz integral (peso crudo), 150 g de pechuga de pollo (peso crudo), 1⁄2 cebolla de verdeo, 1⁄2 morrón, 1⁄4 de zanahoria rallada, 60 g de arvejas, 1 cta de aceite de oliva, 1 cta de salsa de soja, ajo picado, jengibre rallado + Topping de: 1⁄2 huevo duro."
+        ],
         "ingredientes": [
             {
                 "cant": 40,
@@ -66,9 +67,10 @@
     },
     {
         "nombre": "Wok de carne",
-        "tipo": "cena",
-        "semana": 2,
-        "descripcion": "Wok de: 150 g de carne en tiras (peso crudo) a la plancha, 65 g de brócoli, 2 T de repollo blanco, 75 g de arvejas + Aderezo de: 1 cta de aceite de oliva, jengibre rallado, 1 cta de salsa de soja + Topping de: 1 cta de semillas de sésamo.",
+        "descripcion": "Wok de carne, brócoli, repollo y arvejas",
+        "receta": [
+            "Wok de: 150 g de carne en tiras (peso crudo) a la plancha, 65 g de brócoli, 2 T de repollo blanco, 75 g de arvejas + Aderezo de: 1 cta de aceite de oliva, jengibre rallado, 1 cta de salsa de soja + Topping de: 1 cta de semillas de sésamo."
+        ],
         "ingredientes": [
             {
                 "cant": 150,
@@ -114,9 +116,10 @@
     },
     {
         "nombre": "Tacos de lechuga",
-        "tipo": "cena",
-        "semana": 2,
-        "descripcion": "Tacos de 3 hojas de lechuga rellenos de: 150g de pechuga de pollo (peso crudo) a la plancha, 85g de porotos negros (peso cocido), 1⁄2 cebolla de verdeo, 1⁄2 morrón, 1 cta de aceite de oliva, cúrcuma, comino + Topping de 1⁄4 de palta en cubos.",
+        "descripcion": "Tacos de pollo, porotos, cebolla, morrón y palta.",
+        "receta": [
+            "Tacos de 3 hojas de lechuga rellenos de: 150g de pechuga de pollo (peso crudo) a la plancha, 85g de porotos negros (peso cocido), 1⁄2 cebolla de verdeo, 1⁄2 morrón, 1 cta de aceite de oliva, cúrcuma, comino + Topping de 1⁄4 de palta en cubos."
+        ],
         "ingredientes": [
             {
                 "cant": 150,
@@ -161,10 +164,11 @@
         ]
     },
     {
-        "nombre": "Carne de cerdo a la plancha con puré de boniato y chauchas",
-        "tipo": "cena",
-        "semana": 2,
-        "descripcion": "150g de carne de cerdo (peso crudo) a la plancha, condimentado con: ajo picado, 1 cta de mostaza dijon, 1 cta de aceite de oliva, pimienta y sal + Puré de 250g de boniato + 120g de chauchas hervidas.",
+        "nombre": "Carne de cerdo a la plancha con puré",
+        "descripcion": "Carne de cerdo a la mostaza con puré de boniato y chauchas.",
+        "receta": [
+            "150g de carne de cerdo (peso crudo) a la plancha, condimentado con: ajo picado, 1 cta de mostaza dijon, 1 cta de aceite de oliva, pimienta y sal + Puré de 250g de boniato + 120g de chauchas hervidas."
+        ],
         "ingredientes": [
             {
                 "cant": 150,
@@ -209,10 +213,11 @@
         ]
     },
     {
-        "semana": 2,
         "nombre": "Pechuga de pollo condimentada",
-        "tipo": "almuerzo",
-        "descripcion": "150 g de pechuga de pollo (peso crudo) a la plancha condimentado con ajo picado, pimienta, sal + 140 g de boniato (al horno) Timbal de : 35 g de quinoa (peso crudo), puñado de perejil y menta picada, 1 cta de aceite de oliva, jugo de limón",
+        "descripcion": "Pechuga de pollo con boniato y timbal de quinoa",
+        "receta": [
+            "150 g de pechuga de pollo (peso crudo) a la plancha condimentado con ajo picado, pimienta, sal + 140 g de boniato (al horno) Timbal de : 35 g de quinoa (peso crudo), puñado de perejil y menta picada, 1 cta de aceite de oliva, jugo de limón"
+        ],
         "ingredientes": [
             {
                 "cant": 150.0,
@@ -268,9 +273,10 @@
     },
     {
         "nombre": "Churrasco con boniatos",
-        "tipo": "almuerzo",
-        "semana": 2,
-        "descripcion": "150 g de churrasco de carne (peso crudo) a la plancha condimentado con pimienta y sal + Ensalada de: 30 g de garbanzos (peso cocido), 80 g de brócoli, 150 g de boniato (al horno), ajo picado, jugo de limón, 1 cta de aceite de oliva.",
+        "descripcion": "Churrasco de carne con ensalada de garbanzos, brócoli y boniatos.",
+        "receta": [
+            "150 g de churrasco de carne (peso crudo) a la plancha condimentado con pimienta y sal + Ensalada de: 30 g de garbanzos (peso cocido), 80 g de brócoli, 150 g de boniato (al horno), ajo picado, jugo de limón, 1 cta de aceite de oliva."
+        ],
         "ingredientes": [
             {
                 "cant": 150,
@@ -306,102 +312,6 @@
                 "cant": 1,
                 "unit": "cta",
                 "description": "aceite de oliva"
-            }
-        ]
-    },
-    {
-        "nombre": "Tacos de lechuga",
-        "tipo": "almuerzo",
-        "semana": 2,
-        "descripcion": "Tacos de 3 hojas de lechuga rellenos de: 150g de pechuga de pollo (peso crudo) a la plancha, 85g de porotos negros (peso cocido), 1⁄2 cebolla de verdeo, 1⁄2 morrón, 1 cta de aceite de oliva, cúrcuma, comino + Topping de 1⁄4 de palta en cubos.",
-        "ingredientes": [
-            {
-                "cant": 150,
-                "unit": "g",
-                "description": "pechuga de pollo"
-            },
-            {
-                "cant": 85,
-                "unit": "g",
-                "description": "porotos negros"
-            },
-            {
-                "cant": 0.5,
-                "unit": "",
-                "description": "cebolla de verdeo"
-            },
-            {
-                "cant": 0.5,
-                "unit": "",
-                "description": "morrón"
-            },
-            {
-                "cant": 1,
-                "unit": "cta",
-                "description": "aceite de oliva"
-            },
-            {
-                "cant": null,
-                "unit": null,
-                "description": "cúrcuma"
-            },
-            {
-                "cant": null,
-                "unit": null,
-                "description": "comino"
-            },
-            {
-                "cant": 0.25,
-                "unit": "",
-                "description": "palta"
-            }
-        ]
-    },
-    {
-        "nombre": "Carne de cerdo a la plancha con puré de boniato y chauchas",
-        "tipo": "almuerzo",
-        "semana": 2,
-        "descripcion": "150g de carne de cerdo (peso crudo) a la plancha, condimentado con: ajo picado, 1 cta de mostaza dijon, 1 cta de aceite de oliva, pimienta y sal + Puré de 250g de boniato + 120g de chauchas hervidas.",
-        "ingredientes": [
-            {
-                "cant": 150,
-                "unit": "g",
-                "description": "carne de cerdo"
-            },
-            {
-                "cant": null,
-                "unit": null,
-                "description": "ajo"
-            },
-            {
-                "cant": 1,
-                "unit": "cta",
-                "description": "mostaza dijon"
-            },
-            {
-                "cant": 1,
-                "unit": "cta",
-                "description": "aceite de oliva"
-            },
-            {
-                "cant": null,
-                "unit": null,
-                "description": "pimienta"
-            },
-            {
-                "cant": null,
-                "unit": null,
-                "description": "sal"
-            },
-            {
-                "cant": 250,
-                "unit": "g",
-                "description": "boniato"
-            },
-            {
-                "cant": 120,
-                "unit": "g",
-                "description": "chauchas hervidas"
             }
         ]
     }

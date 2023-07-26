@@ -1,8 +1,7 @@
 [
     {
-        "nombre": "Panqueque proteico de chocolate",
-        "tipo": "desayuno",
-        "semana": 7,
+        "nombre": "Panqueque de chocolate",
+        "rendimiento": 3,
         "descripcion": "Té verde con limón + Panqueque proteico de chocolate",
         "ingredientes": [
             {
