@@ -1,6 +1,5 @@
 import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/domain/meal_type.dart';
-import 'package:challenge/drawer/drawer.dart';
 import 'package:challenge/global_widgets/app_card.dart';
 import 'package:challenge/home/home_style.dart';
 import 'package:challenge/utils/router.dart';
@@ -11,10 +10,10 @@ class MealTypeScreen extends StatelessWidget {
   const MealTypeScreen({
     Key? key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const AppDrawer(),
       appBar: const CustomAppBar(
         title: 'Tipo',
       ),

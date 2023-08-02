@@ -1,6 +1,5 @@
 import 'package:challenge/cart/cart_provider.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/drawer/drawer.dart';
 import 'package:challenge/utils/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -14,7 +13,6 @@ class CartScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final cart = ref.watch(cartProvider);
     return Scaffold(
-      drawer: showDrawer ? const AppDrawer() : null,
       appBar: AppBar(
         title: const Text('Carrito'),
       ),

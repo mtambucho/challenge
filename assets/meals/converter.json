@@ -1,0 +1,320 @@
+{
+    "Fruit": [
+        {
+            "Food": "Apple",
+            "Serving Size": "100g",
+            "Protein": "0.24g",
+            "Carbs": "12.7g",
+            "Fat": "0.16g"
+        },
+        {
+            "Food": "Banana",
+            "Serving Size": "100g",
+            "Protein": "1.09g",
+            "Carbs": "22.8g",
+            "Fat": "0.33g"
+        },
+        {
+            "Food": "Grapes",
+            "Serving Size": "100g",
+            "Protein": "0.47g",
+            "Carbs": "18.5g",
+            "Fat": "0.19g"
+        },
+        {
+            "Food": "Orange",
+            "Serving Size": "100g",
+            "Protein": "0.69g",
+            "Carbs": "8.2g",
+            "Fat": "0.17g"
+        },
+        {
+            "Food": "Pear",
+            "Serving Size": "100g",
+            "Protein": "0.38g",
+            "Carbs": "17.6g",
+            "Fat": "0.13g"
+        },
+        {
+            "Food": "Peach",
+            "Serving Size": "100g",
+            "Protein": "0.71g",
+            "Carbs": "7.4g",
+            "Fat": "0.19g"
+        },
+        {
+            "Food": "Pineapple",
+            "Serving Size": "100g",
+            "Protein": "0.35g",
+            "Carbs": "13.6g",
+            "Fat": "0.08g"
+        },
+        {
+            "Food": "Strawberry",
+            "Serving Size": "100g",
+            "Protein": "0.73g",
+            "Carbs": "7.9g",
+            "Fat": "0.31g"
+        },
+        {
+            "Food": "Watermelon",
+            "Serving Size": "100g",
+            "Protein": "0.61g",
+            "Carbs": "7.5g",
+            "Fat": "0.15g"
+        }
+    ],
+    "Vegetables": [
+        {
+            "Food": "Asparagus",
+            "Serving Size": "100g",
+            "Protein": "2.41g",
+            "Carbs": "2.1g",
+            "Fat": "0.07g"
+        },
+        {
+            "Food": "Broccoli",
+            "Serving Size": "100g",
+            "Protein": "2.11g",
+            "Carbs": "5.2g",
+            "Fat": "0.3g"
+        },
+        {
+            "Food": "Carrots",
+            "Serving Size": "100g",
+            "Protein": "0.46g",
+            "Carbs": "9.4g",
+            "Fat": "0.24g"
+        },
+        {
+            "Food": "Cucumber",
+            "Serving Size": "100g",
+            "Protein": "0.25g",
+            "Carbs": "0.9g",
+            "Fat": "0.07g"
+        },
+        {
+            "Food": "Eggplant",
+            "Serving Size": "100g",
+            "Protein": "0.37g",
+            "Carbs": "3.5g",
+            "Fat": "0.07g"
+        },
+        {
+            "Food": "Lettuce",
+            "Serving Size": "100g",
+            "Protein": "0.29g",
+            "Carbs": "1.0g",
+            "Fat": "0.04g"
+        },
+        {
+            "Food": "Tomato",
+            "Serving Size": "100g",
+            "Protein": "0.65g",
+            "Carbs": "3.0g",
+            "Fat": "0.15g"
+        }
+    ],
+    "Proteins": [
+        {
+            "Food": "Beef, regular, cooked",
+            "Serving Size": "100g",
+            "Protein": "12.53g",
+            "Carbs": "0g",
+            "Fat": "9.18g"
+        },
+        {
+            "Food": "Chicken, cooked",
+            "Serving Size": "100g",
+            "Protein": "20g",
+            "Carbs": "0g",
+            "Fat": "2.21g"
+        },
+        {
+            "Food": "Tofu",
+            "Serving Size": "100g",
+            "Protein": "8.67g",
+            "Carbs": "3.0g",
+            "Fat": "3.37g"
+        },
+        {
+            "Food": "Egg",
+            "Serving Size": "100g",
+            "Protein": "12.58g",
+            "Carbs": "0.78g",
+            "Fat": "9.85g"
+        },
+        {
+            "Food": "Fish, Catfish, cooked",
+            "Serving Size": "100g",
+            "Protein": "9.0g",
+            "Carbs": "4.4g",
+            "Fat": "7.4g"
+        },
+        {
+            "Food": "Pork, cooked",
+            "Serving Size": "100g",
+            "Protein": "13.48g",
+            "Carbs": "0g",
+            "Fat": "7.05g"
+        },
+        {
+            "Food": "Shrimp, cooked",
+            "Serving Size": "100g",
+            "Protein": "17.14g",
+            "Carbs": "0.76g",
+            "Fat": "1.44g"
+        }
+    ],
+    "Common Meals/Snacks": [
+        {
+            "Food": "Bread, white",
+            "Serving Size": "100g",
+            "Protein": "6.73g",
+            "Carbs": "35.3g",
+            "Fat": "2.27g"
+        },
+        {
+            "Food": "Butter",
+            "Serving Size": "100g",
+            "Protein": "0.84g",
+            "Carbs": "0.07g",
+            "Fat": "81.01g"
+        },
+        {
+            "Food": "Caesar salad",
+            "Serving Size": "100g",
+            "Protein": "2.37g",
+            "Carbs": "3.07g",
+            "Fat": "6.68g"
+        },
+        {
+            "Food": "Cheeseburger",
+            "Serving Size": "100g",
+            "Protein": "9.47g",
+            "Carbs": "20.4g",
+            "Fat": "9.71g"
+        },
+        {
+            "Food": "Hamburger",
+            "Serving Size": "100g",
+            "Protein": "8.62g",
+            "Carbs": "15.8g",
+            "Fat": "6.47g"
+        },
+        {
+            "Food": "Dark Chocolate",
+            "Serving Size": "100g",
+            "Protein": "5.53g",
+            "Carbs": "58.6g",
+            "Fat": "32.1g"
+        },
+        {
+            "Food": "Corn",
+            "Serving Size": "100g",
+            "Protein": "1.77g",
+            "Carbs": "21.0g",
+            "Fat": "1.13g"
+        },
+        {
+            "Food": "Pizza",
+            "Serving Size": "100g",
+            "Protein": "3.36g",
+            "Carbs": "8.6g",
+            "Fat": "3.08g"
+        },
+        {
+            "Food": "Potato",
+            "Serving Size": "100g",
+            "Protein": "2.64g",
+            "Carbs": "21.5g",
+            "Fat": "0.13g"
+        },
+        {
+            "Food": "Rice",
+            "Serving Size": "100g",
+            "Protein": "2.16g",
+            "Carbs": "22.64g",
+            "Fat": "0.22g"
+        },
+        {
+            "Food": "Sandwich",
+            "Serving Size": "100g",
+            "Protein": "3.73g",
+            "Carbs": "9.55g",
+            "Fat": "0.71g"
+        }
+    ],
+    "Beverages/Dairy": [
+        {
+            "Food": "Beer",
+            "Serving Size": "100g",
+            "Protein": "0.46g",
+            "Carbs": "3.54g",
+            "Fat": "0g"
+        },
+        {
+            "Food": "Coca-Cola Classic",
+            "Serving Size": "100g",
+            "Protein": "0g",
+            "Carbs": "10.96g",
+            "Fat": "0g"
+        },
+        {
+            "Food": "Diet Coke",
+            "Serving Size": "100g",
+            "Protein": "0g",
+            "Carbs": "0g",
+            "Fat": "0g"
+        },
+        {
+            "Food": "Milk (1%)",
+            "Serving Size": "100g",
+            "Protein": "3.62g",
+            "Carbs": "5.36g",
+            "Fat": "1.04g"
+        },
+        {
+            "Food": "Milk (2%)",
+            "Serving Size": "100g",
+            "Protein": "3.35g",
+            "Carbs": "4.75g",
+            "Fat": "2.0g"
+        },
+        {
+            "Food": "Milk (Whole)",
+            "Serving Size": "100g",
+            "Protein": "3.15g",
+            "Carbs": "4.42g",
+            "Fat": "5.37g"
+        },
+        {
+            "Food": "Orange Juice",
+            "Serving Size": "100g",
+            "Protein": "0.73g",
+            "Carbs": "10.85g",
+            "Fat": "0.21g"
+        },
+        {
+            "Food": "Apple cider",
+            "Serving Size": "100g",
+            "Protein": "0.06g",
+            "Carbs": "12.7g",
+            "Fat": "0.12g"
+        },
+        {
+            "Food": "Yogurt (low-fat)",
+            "Serving Size": "100g",
+            "Protein": "5.24g",
+            "Carbs": "7.0g",
+            "Fat": "1.54g"
+        },
+        {
+            "Food": "Yogurt (non-fat)",
+            "Serving Size": "100g",
+            "Protein": "5.31g",
+            "Carbs": "7.11g",
+            "Fat": "0.18g"
+        }
+    ]
+}

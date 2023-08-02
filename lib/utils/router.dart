@@ -1,30 +1,101 @@
 import 'package:challenge/cart/cart_screen.dart';
 import 'package:challenge/choose_reciepes/presentation/choose_recipes_screen.dart';
+import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/home/home_screen.dart';
+import 'package:challenge/meal_type/meal_type_screen.dart';
+import 'package:challenge/navbar/scaffold_with_nested_navigation.dart';
 import 'package:challenge/recipe_details/presentation/recipe_details_screen.dart';
 import 'package:challenge/recipes/recipes_screen.dart';
 import 'package:challenge/settings/settings_screen.dart';
+import 'package:challenge/shopping_list/shopping_list_screen.dart';
 import 'package:challenge/splash_screen.dart';
 import 'package:challenge/week_menu/presentation/week_menu_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-import '../domain/meal_type.dart';
-import '../meal_type/meal_type_screen.dart';
-import '../shopping_list/shopping_list_screen.dart';
-
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
+final _shellNavigatorRecipesKey =
+    GlobalKey<NavigatorState>(debugLabel: 'shellRecipes');
+final _shellNavigatorChallengeKey =
+    GlobalKey<NavigatorState>(debugLabel: 'shellChallenge');
+final _shellNavigatorSettingsKey =
+    GlobalKey<NavigatorState>(debugLabel: 'shellSettings');
+final _shellNavigatorExcerciseKey =
+    GlobalKey<NavigatorState>(debugLabel: 'shellExcercise');
 
 final goRouterProvider = Provider<GoRouter>(
   (ref) {
     return GoRouter(
+      // initialLocation: Routes.mealType,
       initialLocation: Routes.splash,
+
       navigatorKey: _rootNavigatorKey,
       debugLogDiagnostics: true,
       routes: [
-        ///splash screen
+        StatefulShellRoute.indexedStack(
+          builder: (context, state, navigationShell) {
+            return ScaffoldWithNestedNavigation(
+                navigationShell: navigationShell);
+          },
+          branches: [
+            ///recipes
+            StatefulShellBranch(
+              navigatorKey: _shellNavigatorRecipesKey,
+              routes: [
+                GoRoute(
+                  path: Routes.mealType,
+                  name: Routes.mealType,
+                  pageBuilder: (context, state) => NoTransitionPage(
+                    key: state.pageKey,
+                    child: const MealTypeScreen(),
+                  ),
+                ),
+              ],
+            ),
+
+            ///challenge
+            StatefulShellBranch(
+              navigatorKey: _shellNavigatorChallengeKey,
+              routes: [
+                GoRoute(
+                  path: Routes.weekMenu,
+                  pageBuilder: (context, state) => const NoTransitionPage(
+                    child: WeekMenuScreen(),
+                  ),
+                ),
+              ],
+            ),
+
+            ///excercise
+            StatefulShellBranch(
+              navigatorKey: _shellNavigatorExcerciseKey,
+              routes: [
+                GoRoute(
+                  path: Routes.settings,
+                  pageBuilder: (context, state) => const NoTransitionPage(
+                    child: SettingsScreen(),
+                  ),
+                ),
+              ],
+            ),
+
+            ///settings
+            StatefulShellBranch(
+              navigatorKey: _shellNavigatorSettingsKey,
+              routes: [
+                GoRoute(
+                  path: Routes.settings,
+                  pageBuilder: (context, state) => const NoTransitionPage(
+                    child: SettingsScreen(),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+
+        // /splash screen
         GoRoute(
           path: Routes.splash,
           name: Routes.splash,
@@ -34,29 +105,6 @@ final goRouterProvider = Provider<GoRouter>(
             child: const SplashScreen(),
           ),
         ),
-
-        ///home screen
-        GoRoute(
-          path: Routes.home,
-          name: Routes.home,
-          parentNavigatorKey: _rootNavigatorKey,
-          pageBuilder: (context, state) => NoTransitionPage(
-            key: state.pageKey,
-            child: const HomeScreen(),
-          ),
-        ),
-
-        ///meal type
-        GoRoute(
-            path: Routes.mealType,
-            name: Routes.mealType,
-            parentNavigatorKey: _rootNavigatorKey,
-            pageBuilder: (context, state) {
-              return NoTransitionPage(
-                key: state.pageKey,
-                child: const MealTypeScreen(),
-              );
-            }),
 
         ///recipes screen
         GoRoute(
@@ -150,19 +198,6 @@ final goRouterProvider = Provider<GoRouter>(
             );
           },
         ),
-
-        ///settings
-        GoRoute(
-          path: Routes.settings,
-          name: Routes.settings,
-          parentNavigatorKey: _rootNavigatorKey,
-          pageBuilder: (context, state) {
-            return NoTransitionPage(
-              key: state.pageKey,
-              child: const SettingsScreen(),
-            );
-          },
-        ),
       ],
     );
   },
@@ -173,7 +208,7 @@ class Routes {
   static const home = '/home';
   static const recipes = '/recipes';
   static const mealType = '/mealType';
-  static const recipeDetails = '/recipeDetails';
+  static const recipeDetails = '/details';
   static const cart = '/cart';
   static const shoppingList = '/shoppingList';
   static const weekMenu = '/weekMenu';

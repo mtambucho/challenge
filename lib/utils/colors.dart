@@ -17,8 +17,10 @@ class AppColors {
   static const skyBlue = Color(0xFF87CEEB);
   static const lemon = Color(0xFFFFFACD);
   static const grey = Color(0xFF9E9E9E);
+  static const darkGrey = Color(0x8A000000);
   static const black = Color(0xDD000000);
   static const lightGrey = Color(0xFFF5F5F5);
+  static const white = Color(0xFFFFFFFF);
 
   static MaterialColor primary2 = const MaterialColor(0xFFB2D8B0, {
     50: Color(0xFFF0F7F2),

@@ -16,6 +16,7 @@ import 'package:go_router/go_router.dart';
 class RecipesScreen extends ConsumerWidget {
   const RecipesScreen({Key? key, required this.type}) : super(key: key);
   final MealType type;
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final recipes = ref.watch(recipesProvider(RecipesParams(
@@ -29,7 +30,7 @@ class RecipesScreen extends ConsumerWidget {
       ),
       body: recipes.when(
         data: (r) => RecipesList(r, type, (recipe) {
-          context.push(Routes.recipeDetails,
+          context.pushNamed(Routes.recipeDetails,
               extra: {'recipe': recipe, 'mealType': type});
         }),
         loading: () => const CircularProgressIndicator(),
