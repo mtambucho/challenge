@@ -3,10 +3,10 @@ import 'package:challenge/cart/cart_provider.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/favorites/fav_widget.dart';
-import 'package:challenge/recipes/recipes_provider.dart';
-import 'package:challenge/recipes/widgets/recipes_item.dart';
+import 'package:challenge/recipes/aplication/recipes_provider.dart';
+import 'package:challenge/recipes/presentation/widgets/meals_bubbles.dart';
+import 'package:challenge/recipes/presentation/widgets/recipes_item.dart';
 import 'package:challenge/utils/router.dart';
-import 'package:challenge/utils/string_extensions.dart';
 // ignore: depend_on_referenced_packages
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -14,29 +14,40 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 class RecipesScreen extends ConsumerWidget {
-  const RecipesScreen({Key? key, required this.type}) : super(key: key);
-  final MealType type;
+  const RecipesScreen({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final recipes = ref.watch(recipesProvider(RecipesParams(
-      type: type,
-    )));
+    final recipes = ref.watch(recipesProvider);
+    final notifier = ref.read(recipesProvider.notifier);
 
     return Scaffold(
-      appBar: CustomAppBar(
-        title: type.toString().capitalize(),
-        showFav: true,
-      ),
-      body: recipes.when(
-        data: (r) => RecipesList(r, type, (recipe) {
-          context.pushNamed(Routes.recipeDetails,
-              extra: {'recipe': recipe, 'mealType': type});
-        }),
-        loading: () => const CircularProgressIndicator(),
-        error: (error, stackTrace) => Text(error.toString()),
-      ),
-    );
+        appBar: CustomAppBar(
+          titleImage: recipes.mealType.imageURL(),
+          title: recipes.mealType.toString(),
+          showFav: true,
+        ),
+        body: Column(children: [
+          MealsBubbles(
+            onSelected: (mealType) {
+              notifier.changeMealType(mealType);
+            },
+            selected: recipes.mealType,
+            canChangeCategory: true,
+          ),
+          Expanded(
+            child: recipes.recipes.when(
+              data: (r) => RecipesList(r, recipes.mealType, (recipe) {
+                context.pushNamed(Routes.recipeDetails,
+                    extra: {'recipe': recipe, 'mealType': recipes.mealType});
+              }),
+              loading: () => const Center(child: CircularProgressIndicator()),
+              error: (error, stackTrace) => Text(error.toString()),
+            ),
+          )
+        ]));
   }
 }
 

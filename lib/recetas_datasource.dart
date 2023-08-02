@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/recipes/recipes_provider.dart';
+import 'package:challenge/recipes/domain/recipes_params.dart';
 import 'package:flutter/services.dart';
 
 abstract class RecipesDataSource {
@@ -32,17 +32,12 @@ class RecipesDataSourceImpl implements RecipesDataSource {
     try {
       final List<Recipe> recetas = [];
       final filename = 's${week}_${params.type.toRawValue()}';
-      log('==>>$filename');
       final json = await rootBundle.loadString('assets/recetas/$filename.json');
       final List<dynamic> jsonResponse = jsonDecode(json);
       for (var element in jsonResponse) {
         final receta = Recipe.fromJson(element);
         recetas.add(receta);
       }
-      final recetasToPrint = recetas.map(
-        (e) => e.name,
-      );
-      log('==>>${recetasToPrint.join(', ')}');
       return recetas;
     } catch (e) {
       log('==>>$e');

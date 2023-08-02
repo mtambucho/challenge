@@ -1,17 +1,7 @@
 import 'dart:convert';
 
 import 'package:challenge/domain/meal_type.dart';
-import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/recetas_datasource.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-///create a provider with Riverpod for recetas to getRecetas in a clean way
-final recipesProvider =
-    FutureProvider.family<List<Recipe>, RecipesParams>((ref, params) async {
-  final RecipesDataSource dataSource = RecipesDataSourceImpl();
-  return dataSource.getRecipes(params);
-});
 
 class RecipesParams extends Equatable {
   final MealType type;

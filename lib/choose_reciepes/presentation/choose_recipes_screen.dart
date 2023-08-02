@@ -1,7 +1,7 @@
 import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/domain/meal_type.dart';
-import 'package:challenge/recipes/recipes_provider.dart';
-import 'package:challenge/recipes/recipes_screen.dart';
+import 'package:challenge/recipes/domain/recipes_params.dart';
+import 'package:challenge/recipes/presentation/recipes_screen.dart';
 import 'package:challenge/utils/router.dart';
 import 'package:challenge/utils/string_extensions.dart';
 // ignore: depend_on_referenced_packages
@@ -22,6 +22,7 @@ class ChooseRecipesScreen extends ConsumerWidget {
     return Scaffold(
       appBar: CustomAppBar(
         title: params.type.toString().capitalize(),
+        titleImage: params.type.imageURL(),
         showFav: true,
       ),
       body: recipes.when(

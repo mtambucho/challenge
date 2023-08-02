@@ -8,6 +8,7 @@ class AppTheme {
     brightness: Brightness.light,
     visualDensity: VisualDensity.adaptivePlatformDensity,
     dividerColor: AppColors.grey,
+    scaffoldBackgroundColor: AppColors.scaffold,
     // navigationBarTheme: const NavigationBarThemeData(
     //   backgroundColor: Colors.white,
     //   elevation: 4,
@@ -25,7 +26,6 @@ class AppTheme {
         ),
       ),
       indicatorColor: Colors.transparent,
-      backgroundColor: Colors.white,
       labelTextStyle: MaterialStateProperty.resolveWith((states) {
         if (states.contains(MaterialState.selected)) {
           return const TextStyle(

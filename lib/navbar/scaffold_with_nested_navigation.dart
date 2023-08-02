@@ -66,11 +66,11 @@ class ScaffoldWithNavigationBar extends StatelessWidget {
         height: 45,
         indicatorColor: Colors.transparent,
         destinations: List.generate(
-          NavBar.values.length,
+          NavBar.enabledValues.length,
           (index) => NavigationDestination(
-              label: NavBar.values[index].toString(),
+              label: NavBar.enabledValues[index].toString(),
               icon: Icon(
-                NavBar.values[index].icon,
+                NavBar.enabledValues[index].icon,
                 size: 20,
                 color: selectedIndex == index
                     ? AppColors.accentColor

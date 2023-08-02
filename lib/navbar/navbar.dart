@@ -6,6 +6,12 @@ enum NavBar {
   excercise,
   settings;
 
+  static List<NavBar> get enabledValues => [
+        home,
+        challenge,
+        settings,
+      ];
+
   @override
   String toString() {
     return switch (this) {

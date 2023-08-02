@@ -26,8 +26,12 @@ class DateTimePickerState extends State<DateTimePicker> {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () async {
+    return ElevatedButton(
+      child: Text(
+        _dateTime.toDateOnly(),
+        style: const TextStyle(fontSize: 18),
+      ),
+      onPressed: () async {
         final newDateTime = await showDatePicker(
           context: context,
           initialDate: _dateTime,
@@ -41,10 +45,6 @@ class DateTimePickerState extends State<DateTimePicker> {
           });
         }
       },
-      child: Text(
-        _dateTime.toDateOnly(),
-        style: const TextStyle(fontSize: 18),
-      ),
     );
   }
 }

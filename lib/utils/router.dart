@@ -2,10 +2,10 @@ import 'package:challenge/cart/cart_screen.dart';
 import 'package:challenge/choose_reciepes/presentation/choose_recipes_screen.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/meal_type/meal_type_screen.dart';
+import 'package:challenge/navbar/navbar.dart';
 import 'package:challenge/navbar/scaffold_with_nested_navigation.dart';
 import 'package:challenge/recipe_details/presentation/recipe_details_screen.dart';
-import 'package:challenge/recipes/recipes_screen.dart';
+import 'package:challenge/recipes/presentation/recipes_screen.dart';
 import 'package:challenge/settings/settings_screen.dart';
 import 'package:challenge/shopping_list/shopping_list_screen.dart';
 import 'package:challenge/splash_screen.dart';
@@ -38,61 +38,10 @@ final goRouterProvider = Provider<GoRouter>(
             return ScaffoldWithNestedNavigation(
                 navigationShell: navigationShell);
           },
-          branches: [
-            ///recipes
-            StatefulShellBranch(
-              navigatorKey: _shellNavigatorRecipesKey,
-              routes: [
-                GoRoute(
-                  path: Routes.mealType,
-                  name: Routes.mealType,
-                  pageBuilder: (context, state) => NoTransitionPage(
-                    key: state.pageKey,
-                    child: const MealTypeScreen(),
-                  ),
-                ),
-              ],
-            ),
-
-            ///challenge
-            StatefulShellBranch(
-              navigatorKey: _shellNavigatorChallengeKey,
-              routes: [
-                GoRoute(
-                  path: Routes.weekMenu,
-                  pageBuilder: (context, state) => const NoTransitionPage(
-                    child: WeekMenuScreen(),
-                  ),
-                ),
-              ],
-            ),
-
-            ///excercise
-            StatefulShellBranch(
-              navigatorKey: _shellNavigatorExcerciseKey,
-              routes: [
-                GoRoute(
-                  path: Routes.settings,
-                  pageBuilder: (context, state) => const NoTransitionPage(
-                    child: SettingsScreen(),
-                  ),
-                ),
-              ],
-            ),
-
-            ///settings
-            StatefulShellBranch(
-              navigatorKey: _shellNavigatorSettingsKey,
-              routes: [
-                GoRoute(
-                  path: Routes.settings,
-                  pageBuilder: (context, state) => const NoTransitionPage(
-                    child: SettingsScreen(),
-                  ),
-                ),
-              ],
-            ),
-          ],
+          branches: List.generate(
+            NavBar.enabledValues.length,
+            (index) => NavBar.enabledValues[index].branch,
+          ),
         ),
 
         // /splash screen
@@ -106,21 +55,17 @@ final goRouterProvider = Provider<GoRouter>(
           ),
         ),
 
-        ///recipes screen
-        GoRoute(
-            path: Routes.recipes,
-            name: Routes.recipes,
-            parentNavigatorKey: _rootNavigatorKey,
-            pageBuilder: (context, state) {
-              final params = state.extra as Map;
-              final type = params['type'] as MealType;
-              return NoTransitionPage(
-                key: state.pageKey,
-                child: RecipesScreen(
-                  type: type,
-                ),
-              );
-            }),
+        // ///recipes screen
+        // GoRoute(
+        //     path: Routes.recipes,
+        //     name: Routes.recipes,
+        //     parentNavigatorKey: _rootNavigatorKey,
+        //     pageBuilder: (context, state) {
+        //       return NoTransitionPage(
+        //         key: state.pageKey,
+        //         child: const RecipesScreen(),
+        //       );
+        //     }),
 
         ///recipe details
         GoRoute(
@@ -207,12 +152,77 @@ class Routes {
   static const splash = '/';
   static const home = '/home';
   static const recipes = '/recipes';
-  static const mealType = '/mealType';
+  // static const mealType = '/mealType';
   static const recipeDetails = '/details';
   static const cart = '/cart';
   static const shoppingList = '/shoppingList';
   static const weekMenu = '/weekMenu';
   static const chooseRecipes = '/chooseRecipes';
   static const settings = '/settings';
-  static const defaultPage = Routes.mealType;
+  static const defaultPage = Routes.recipes;
+}
+
+extension NavBarNavigation on NavBar {
+  StatefulShellBranch get branch {
+    return switch (this) {
+      NavBar.home =>
+
+        ///recipes
+        StatefulShellBranch(
+          navigatorKey: _shellNavigatorRecipesKey,
+          routes: [
+            GoRoute(
+              path: Routes.recipes,
+              name: Routes.recipes,
+              pageBuilder: (context, state) => NoTransitionPage(
+                key: state.pageKey,
+                child: const RecipesScreen(),
+              ),
+            ),
+          ],
+        ),
+      NavBar.challenge =>
+
+        ///challenge
+        StatefulShellBranch(
+          navigatorKey: _shellNavigatorChallengeKey,
+          routes: [
+            GoRoute(
+              path: Routes.weekMenu,
+              pageBuilder: (context, state) => const NoTransitionPage(
+                child: WeekMenuScreen(),
+              ),
+            ),
+          ],
+        ),
+      NavBar.excercise =>
+
+        ///excercise
+        StatefulShellBranch(
+          navigatorKey: _shellNavigatorExcerciseKey,
+          routes: [
+            GoRoute(
+              path: Routes.settings,
+              pageBuilder: (context, state) => const NoTransitionPage(
+                child: SettingsScreen(),
+              ),
+            ),
+          ],
+        ),
+      NavBar.settings =>
+
+        ///settings
+        StatefulShellBranch(
+          navigatorKey: _shellNavigatorSettingsKey,
+          routes: [
+            GoRoute(
+              path: Routes.settings,
+              pageBuilder: (context, state) => const NoTransitionPage(
+                child: SettingsScreen(),
+              ),
+            ),
+          ],
+        ),
+    };
+  }
 }

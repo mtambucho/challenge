@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
+import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/week_menu/application/week_index_provider.dart';
 import 'package:challenge/week_menu/presentation/day_menu_page.dart';
 // ignore: depend_on_referenced_packages
@@ -21,9 +22,8 @@ class WeekMenuScreen extends ConsumerWidget {
     final state = ref.read(weekIndexProvider.notifier);
     return Scaffold(
       drawerEnableOpenDragGesture: false,
-      appBar: AppBar(
-        title: const Text('Week Menu'),
-        centerTitle: true,
+      appBar: const CustomAppBar(
+        title: 'Week Menu',
       ),
       body: SafeArea(
         child: PageView(

@@ -13,18 +13,21 @@ class FirstDaySettings extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'First day of the challenge:',
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          'First day of the challenge',
+          style: TextStyle(fontSize: 18),
         ),
         const SizedBox(height: 8),
-        Consumer(builder: (context, ref, child) {
-          final firstDay = ref.watch(preferencesProvider).startingDate;
-          return DateTimePicker(
-            dateTime: firstDay,
-            onChanged: (value) =>
-                ref.read(preferencesProvider.notifier).saveStartingDate(value),
-          );
-        }),
+        Center(
+          child: Consumer(builder: (context, ref, child) {
+            final firstDay = ref.watch(preferencesProvider).startingDate;
+            return DateTimePicker(
+              dateTime: firstDay,
+              onChanged: (value) => ref
+                  .read(preferencesProvider.notifier)
+                  .saveStartingDate(value),
+            );
+          }),
+        ),
       ],
     );
   }

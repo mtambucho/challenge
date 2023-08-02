@@ -1,4 +1,5 @@
 import 'package:challenge/services/local_storage_manager.dart';
+import 'package:challenge/utils/colors.dart';
 import 'package:challenge/utils/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -13,31 +14,61 @@ class StartupPageSettings extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'Startup page:',
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          'Startup page',
+          style: TextStyle(
+            fontSize: 18,
+          ),
         ),
         const SizedBox(height: 8),
-        Consumer(builder: (context, ref, child) {
-          final startup = ref.watch(startupPageProvider);
+        Center(
+          child: ElevatedButton(
+            onPressed: null,
+            style: ElevatedButton.styleFrom(
+                disabledBackgroundColor: AppColors.primary),
+            child: Consumer(builder: (context, ref, child) {
+              final startup = ref.watch(startupPageProvider);
 
-          ///return dropdown with 2 options (recipes and week menu)
-          return DropdownButton<String>(
-            value: startup,
-            onChanged: (value) => ref
-                .read(startupPageProvider.notifier)
-                .changeStartupPage(value!),
-            items: const [
-              DropdownMenuItem(
-                value: Routes.mealType,
-                child: Text('Recipes'),
-              ),
-              DropdownMenuItem(
-                value: Routes.weekMenu,
-                child: Text('Challenge'),
-              ),
-            ],
-          );
-        }),
+              ///return dropdown with 2 options (recipes and week menu)
+              return DropdownButton<String>(
+                value: startup,
+                selectedItemBuilder: (context) => [
+                  const Center(
+                    child: Text(
+                      'Recipes',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                  const Center(
+                    child: Text(
+                      'Challenge',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
+                iconEnabledColor: Colors.white,
+                onChanged: (value) => ref
+                    .read(startupPageProvider.notifier)
+                    .changeStartupPage(value!),
+                items: const [
+                  DropdownMenuItem(
+                    value: Routes.recipes,
+                    child: Text(
+                      'Recipes',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
+                  DropdownMenuItem(
+                    value: Routes.weekMenu,
+                    child: Text(
+                      'Challenge',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
+                ],
+              );
+            }),
+          ),
+        ),
       ],
     );
   }
