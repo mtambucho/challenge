@@ -2,7 +2,7 @@ import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/features/recipes/domain/recipes_params.dart';
 import 'package:challenge/features/recipes/presentation/recipes_screen.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:challenge/utils/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

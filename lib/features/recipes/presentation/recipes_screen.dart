@@ -6,7 +6,7 @@ import 'package:challenge/features/recipes/aplication/recipes_provider.dart';
 import 'package:challenge/features/recipes/presentation/widgets/meals_bubbles.dart';
 import 'package:challenge/features/recipes/presentation/widgets/recipes_item.dart';
 import 'package:challenge/global_widgets/fav_widget.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 // ignore: depend_on_referenced_packages
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';

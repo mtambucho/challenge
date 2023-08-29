@@ -1,3 +1,4 @@
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/recipe_details/presentation/widgets/recipe_details_section.dart';
 import 'package:challenge/utils/double_extensions.dart';
@@ -30,7 +31,7 @@ class _IngredientsWidgetState extends State<IngredientsWidget> {
         .map((e) =>
             getIngredientText(e, widget.people, widget.recipe.rendimiento))
         .toList();
-    return RecipeDetailsSection(items: items, title: 'Ingredientes');
+    return RecipeDetailsSection(items: items, title: AppStrings.ingredients);
   }
 
   String getIngredientText(
@@ -39,8 +40,7 @@ class _IngredientsWidgetState extends State<IngredientsWidget> {
     final cant = totalQuantity.format();
     final unit = recepyIngredient.unit?.toString() ?? '';
     final hasQuantity = cant.isNotEmpty || unit.isNotEmpty;
-    final quantity =
-        hasQuantity ? ' $cant${unit.isNotEmpty ? ' $unit de' : ''} ' : null;
+    final quantity = hasQuantity ? AppStrings.cantOfUnit(cant, unit) : null;
 
     return (quantity ?? '') + recepyIngredient.name.capitalize();
   }

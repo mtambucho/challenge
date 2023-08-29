@@ -1,8 +1,7 @@
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/features/week_menu/model/day_meals.dart';
+import 'package:challenge/features/week_menu/domain/day_meals.dart';
 import 'package:challenge/services/local_storage_manager.dart';
-// ignore: depend_on_referenced_packages
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

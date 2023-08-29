@@ -1,3 +1,4 @@
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/cart/presentation/cart_screen.dart';
@@ -221,7 +222,12 @@ extension NavBarNavigation on NavBar {
             GoRoute(
               path: Routes.fasting,
               pageBuilder: (context, state) => const NoTransitionPage(
-                child: SettingsScreen(),
+                child: Scaffold(
+                  body: Center(
+                      child: Text(
+                    AppStrings.notImplementedYet,
+                  )),
+                ),
               ),
             ),
           ],

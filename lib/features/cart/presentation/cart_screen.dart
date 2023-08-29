@@ -1,6 +1,7 @@
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/cart/application/cart_provider.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -14,7 +15,7 @@ class CartScreen extends ConsumerWidget {
     final cart = ref.watch(cartProvider);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Carrito'),
+        title: const Text(AppStrings.cart),
       ),
       body: Column(
         children: [
@@ -65,7 +66,6 @@ class CartItem extends ConsumerWidget {
     return Card(
       child: ListTile(
         title: Text(recipe.name),
-        // subtitle: Text(recipe.type.toString().capitalize()),
         leading: IconButton(
           icon: const Icon(Icons.delete),
           onPressed: onRemoved,
@@ -119,7 +119,7 @@ class CartButton extends ConsumerWidget {
         child: const Padding(
           padding: EdgeInsets.all(20.0),
           child: Text(
-            'Lista de compras',
+            AppStrings.shoppingList,
             style: TextStyle(fontSize: 20),
           ),
         ),

@@ -2,13 +2,12 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/features/recipes/domain/recetas_datasource.dart';
+import 'package:challenge/features/recipes/domain/recipes_datasource.dart';
 import 'package:challenge/features/recipes/domain/recipes_params.dart';
 import 'package:flutter/services.dart';
 
 class RecipesDataSourceImpl implements RecipesDataSource {
-  ///function to get all recipes from recetas.json
-
+  ///function to get all recipes from jsons
   @override
   Future<List<Recipe>> getRecipes(RecipesParams params) async {
     try {
@@ -24,6 +23,7 @@ class RecipesDataSourceImpl implements RecipesDataSource {
     }
   }
 
+  ///auxiliar function to get recipes for a week
   Future<List<Recipe>> _getRecipesForWeek(
       RecipesParams params, int week) async {
     try {

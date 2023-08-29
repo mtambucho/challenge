@@ -1,3 +1,4 @@
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/features/preferences/application/preferences_provider.dart';
 import 'package:challenge/features/settings/widgets/datetime_picker.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class FirstDaySettings extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'First day of the challenge',
+          AppStrings.firstDay,
           style: TextStyle(fontSize: 18),
         ),
         const SizedBox(height: 8),

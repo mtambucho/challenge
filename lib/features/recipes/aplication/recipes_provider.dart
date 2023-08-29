@@ -1,8 +1,8 @@
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/features/recipes/domain/recetas_datasource.dart';
+import 'package:challenge/features/recipes/domain/recipes_datasource.dart';
 import 'package:challenge/features/recipes/domain/recipes_params.dart';
-import 'package:challenge/features/recipes/infrastructure/recetas_datasource.dart';
+import 'package:challenge/features/recipes/infrastructure/recipes_datasource_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 ///provider to get the mealType
@@ -43,14 +43,14 @@ class RecipesState {
   factory RecipesState.initial() {
     late final MealType initValue;
     final now = DateTime.now();
-    if (now.hour < 11) {
-      initValue = MealType.desayuno;
-    } else if (now.hour < 15) {
-      initValue = MealType.almuerzo;
-    } else if (now.hour < 19) {
-      initValue = MealType.colacion;
+    if (now.hour < _kBreakfastEndTime) {
+      initValue = MealType.breakfast;
+    } else if (now.hour < _kLunchEndTime) {
+      initValue = MealType.lunch;
+    } else if (now.hour < _kTeaEndTime) {
+      initValue = MealType.morningSnack;
     } else {
-      initValue = MealType.cena;
+      initValue = MealType.dinner;
     }
 
     return RecipesState(
@@ -65,3 +65,7 @@ class RecipesState {
     );
   }
 }
+
+const _kBreakfastEndTime = 11;
+const _kLunchEndTime = 15;
+const _kTeaEndTime = 19;

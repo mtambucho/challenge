@@ -1,44 +1,15 @@
-import 'dart:convert';
-
 import 'package:challenge/domain/meal_type.dart';
-import 'package:equatable/equatable.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-class RecipesParams extends Equatable {
-  final MealType type;
+part 'recipes_params.freezed.dart';
+part 'recipes_params.g.dart';
 
-  const RecipesParams({
-    required this.type,
-  });
+@freezed
+class RecipesParams with _$RecipesParams {
+  const factory RecipesParams({
+    required MealType type,
+  }) = _RecipesParams;
 
-  RecipesParams copyWith({
-    int? week,
-    MealType? type,
-  }) {
-    return RecipesParams(
-      type: type ?? this.type,
-    );
-  }
-
-  Map<String, dynamic> toMap() {
-    return {
-      'type': type.toRawValue(),
-    };
-  }
-
-  factory RecipesParams.fromMap(Map<String, dynamic> map) {
-    return RecipesParams(
-      type: MealType.fromJson(map['type']),
-    );
-  }
-
-  String toJson() => json.encode(toMap());
-
-  factory RecipesParams.fromJson(String source) =>
-      RecipesParams.fromMap(json.decode(source));
-
-  @override
-  String toString() => 'RecipesParams(type: $type)';
-
-  @override
-  List<Object> get props => [type];
+  factory RecipesParams.fromJson(Map<String, dynamic> json) =>
+      _$RecipesParamsFromJson(json);
 }

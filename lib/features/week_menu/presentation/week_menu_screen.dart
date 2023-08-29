@@ -1,4 +1,5 @@
 import 'package:challenge/appbar/appbar.dart';
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/features/week_menu/application/week_index_provider.dart';
 import 'package:challenge/features/week_menu/presentation/day_menu_page.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class WeekMenuScreen extends ConsumerWidget {
     return Scaffold(
       drawerEnableOpenDragGesture: false,
       appBar: const CustomAppBar(
-        title: 'Week Menu',
+        title: AppStrings.weekMenu,
       ),
       body: SafeArea(
         child: PageView(

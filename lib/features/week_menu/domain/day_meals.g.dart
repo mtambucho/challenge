@@ -21,9 +21,9 @@ Map<String, dynamic> _$$_DayMealsToJson(_$_DayMeals instance) =>
     };
 
 const _$MealTypeEnumMap = {
-  MealType.desayuno: 'desayuno',
-  MealType.colacion: 'colacion',
-  MealType.almuerzo: 'almuerzo',
-  MealType.merienda: 'merienda',
-  MealType.cena: 'cena',
+  MealType.breakfast: 'breakfast',
+  MealType.morningSnack: 'morningSnack',
+  MealType.lunch: 'lunch',
+  MealType.snack: 'snack',
+  MealType.dinner: 'dinner',
 };

@@ -44,5 +44,8 @@ app.*.map.json
 /android/app/release
 
 
+ios/Runner/GoogleService-Info.plist
+android/App/GoogleService-Info.plist
+
 #fvm
 .fvm/

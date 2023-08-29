@@ -2,33 +2,34 @@ import 'dart:developer';
 
 import 'package:challenge/constants/colors.dart';
 import 'package:challenge/constants/images.dart';
+import 'package:challenge/constants/strings.dart';
 import 'package:flutter/material.dart';
 
 enum MealType {
-  desayuno,
-  colacion,
-  almuerzo,
-  merienda,
-  cena;
+  breakfast,
+  morningSnack,
+  lunch,
+  snack,
+  dinner;
 
   @override
   String toString() {
     return switch (this) {
-      MealType.desayuno => 'Desayuno',
-      MealType.colacion => 'Colación',
-      MealType.almuerzo => 'Almuerzo',
-      MealType.merienda => 'Merienda',
-      MealType.cena => 'Cena'
+      MealType.breakfast => AppStrings.breakfast,
+      MealType.morningSnack => AppStrings.morningSnack,
+      MealType.lunch => AppStrings.lunch,
+      MealType.snack => AppStrings.snack,
+      MealType.dinner => AppStrings.dinner
     };
   }
 
   String imageURL() {
     return switch (this) {
-      desayuno => AppImages.desayuno,
-      colacion => AppImages.colacion,
-      almuerzo => AppImages.almuerzo,
-      merienda => AppImages.merienda,
-      cena => AppImages.cena,
+      breakfast => AppImages.desayuno,
+      morningSnack => AppImages.colacion,
+      lunch => AppImages.almuerzo,
+      snack => AppImages.merienda,
+      dinner => AppImages.cena,
     };
   }
 
@@ -39,26 +40,26 @@ enum MealType {
       );
     } catch (e) {
       log('error');
-      return MealType.desayuno;
+      return MealType.breakfast;
     }
   }
 
   String toRawValue() {
     return switch (this) {
-      desayuno => 'desayuno',
-      colacion => 'colacion',
-      merienda => 'merienda',
-      almuerzo || cena => 'comida'
+      breakfast => 'desayuno',
+      morningSnack => 'colacion',
+      snack => 'merienda',
+      lunch || dinner => 'comida'
     };
   }
 
   Color color() {
     return switch (this) {
-      MealType.desayuno => AppColors.skyBlue,
-      MealType.colacion => AppColors.lemon,
-      MealType.almuerzo => AppColors.green,
-      MealType.merienda => AppColors.blue,
-      MealType.cena => AppColors.peach
+      MealType.breakfast => AppColors.skyBlue,
+      MealType.morningSnack => AppColors.lemon,
+      MealType.lunch => AppColors.green,
+      MealType.snack => AppColors.blue,
+      MealType.dinner => AppColors.peach
     };
   }
 }

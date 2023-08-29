@@ -1,4 +1,5 @@
 import 'package:challenge/appbar/appbar.dart';
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/features/settings/widgets/first_day_settings.dart';
 import 'package:challenge/features/settings/widgets/startup_page_settings.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +11,7 @@ class SettingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       appBar: CustomAppBar(
-        title: 'Settings',
+        title: AppStrings.settings,
       ),
       body: Padding(
         padding: EdgeInsets.all(16),

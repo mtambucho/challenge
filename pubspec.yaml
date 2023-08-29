@@ -42,6 +42,7 @@ dependencies:
   intl: ^0.18.1
   riverpod_annotation: ^2.1.1
   shared_preferences: ^2.1.1
+  collection: ^1.17.2
   
 dev_dependencies:
 # fvm flutter pub run build_runner watch

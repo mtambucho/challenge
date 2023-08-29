@@ -1,7 +1,7 @@
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/features/recipes/domain/recetas_datasource.dart';
+import 'package:challenge/features/recipes/domain/recipes_datasource.dart';
 import 'package:challenge/features/recipes/domain/recipes_params.dart';
-import 'package:challenge/features/recipes/infrastructure/recetas_datasource.dart';
+import 'package:challenge/features/recipes/infrastructure/recipes_datasource_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 ///create a provider with Riverpod for recetas to getRecetas in a clean way

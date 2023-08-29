@@ -1,3 +1,4 @@
+import 'package:challenge/constants/strings.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/recipe_details/presentation/widgets/recipe_details_section.dart';
 import 'package:challenge/utils/string_extensions.dart';
@@ -14,7 +15,7 @@ class RecepyDetailsRecipe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RecipeDetailsSection(
-      title: 'Preparación',
+      title: AppStrings.preparation,
       items: recipe.receta!.map((e) => e.capitalize()).toList(),
     );
   }

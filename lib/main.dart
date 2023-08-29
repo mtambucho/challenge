@@ -1,4 +1,5 @@
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/constants/strings.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:challenge/utils/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -46,8 +47,4 @@ class MyApp extends ConsumerWidget {
       theme: AppTheme().appThemeData,
     );
   }
-}
-
-class AppStrings {
-  static const appName = 'Challenge Flutter';
 }

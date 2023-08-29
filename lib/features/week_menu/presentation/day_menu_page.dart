@@ -66,27 +66,27 @@ class DayMenuPage extends ConsumerWidget {
         ),
 
         DayMenuItem(
-          type: MealType.desayuno,
+          type: MealType.breakfast,
           week: dayOfWeek,
           day: dayOfWeek,
         ),
         DayMenuItem(
-          type: MealType.colacion,
+          type: MealType.morningSnack,
           week: dayOfWeek,
           day: dayOfWeek,
         ),
         DayMenuItem(
-          type: MealType.almuerzo,
+          type: MealType.lunch,
           week: dayOfWeek,
           day: dayOfWeek,
         ),
         DayMenuItem(
-          type: MealType.merienda,
+          type: MealType.snack,
           week: dayOfWeek,
           day: dayOfWeek,
         ),
         DayMenuItem(
-          type: MealType.cena,
+          type: MealType.dinner,
           week: dayOfWeek,
           day: dayOfWeek,
         ),

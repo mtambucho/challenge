@@ -1,4 +1,5 @@
 import 'package:challenge/constants/images.dart';
+import 'package:challenge/constants/strings.dart';
 
 enum NavBar {
   home,
@@ -17,11 +18,11 @@ enum NavBar {
   @override
   String toString() {
     return switch (this) {
-      NavBar.home => 'Recipes',
-      NavBar.challenge => 'Challenge',
-      NavBar.excercise => 'Excercise',
-      NavBar.fasting => 'Ayuno',
-      NavBar.settings => 'Settings'
+      NavBar.home => AppStrings.home,
+      NavBar.challenge => AppStrings.challenge,
+      NavBar.excercise => AppStrings.excercise,
+      NavBar.fasting => AppStrings.fasting,
+      NavBar.settings => AppStrings.settings
     };
   }
 

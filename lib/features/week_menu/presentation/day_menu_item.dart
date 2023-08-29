@@ -2,7 +2,7 @@ import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/home/home_style.dart';
 import 'package:challenge/features/week_menu/application/week_menu_provider.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';

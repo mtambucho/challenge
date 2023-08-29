@@ -77,7 +77,7 @@ class _RecipeDetailsScreenState extends State<RecipeDetailsScreen> {
                     style: RecipeDetailsStyles.titleStyle,
                   ),
                   RecipeDetailsIcons(
-                    porciones: people,
+                    portions: people,
                     onChange: changePeople,
                   )
                 ],

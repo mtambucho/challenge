@@ -1,3 +1,5 @@
+import 'package:challenge/constants/strings.dart';
+
 enum DayOfWeek {
   monday,
   tuesday,
@@ -10,13 +12,13 @@ enum DayOfWeek {
   @override
   String toString() {
     return switch (this) {
-      DayOfWeek.monday => 'Lunes',
-      DayOfWeek.tuesday => 'Martes',
-      DayOfWeek.wednesday => 'Miercoles',
-      DayOfWeek.thursday => 'Jueves',
-      DayOfWeek.friday => 'Viernes',
-      DayOfWeek.saturday => 'Sabado',
-      DayOfWeek.sunday => 'Domingo'
+      DayOfWeek.monday => AppStrings.monday,
+      DayOfWeek.tuesday => AppStrings.tuesday,
+      DayOfWeek.wednesday => AppStrings.wednesday,
+      DayOfWeek.thursday => AppStrings.thursday,
+      DayOfWeek.friday => AppStrings.friday,
+      DayOfWeek.saturday => AppStrings.saturday,
+      DayOfWeek.sunday => AppStrings.sunday,
     };
   }
 }

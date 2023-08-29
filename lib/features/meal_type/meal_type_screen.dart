@@ -2,7 +2,7 @@ import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/features/home/home_style.dart';
 import 'package:challenge/global_widgets/app_card.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

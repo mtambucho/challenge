@@ -1,6 +1,7 @@
 import 'package:challenge/constants/colors.dart';
+import 'package:challenge/constants/strings.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:challenge/services/local_storage_manager.dart';
-import 'package:challenge/utils/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -14,7 +15,7 @@ class StartupPageSettings extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'Startup page',
+          AppStrings.startupPage,
           style: TextStyle(
             fontSize: 18,
           ),
@@ -34,13 +35,13 @@ class StartupPageSettings extends StatelessWidget {
                 selectedItemBuilder: (context) => [
                   const Center(
                     child: Text(
-                      'Recipes',
+                      AppStrings.recipes,
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
                   const Center(
                     child: Text(
-                      'Challenge',
+                      AppStrings.challenge,
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
@@ -53,14 +54,14 @@ class StartupPageSettings extends StatelessWidget {
                   DropdownMenuItem(
                     value: Routes.recipes,
                     child: Text(
-                      'Recipes',
+                      AppStrings.recipes,
                       style: TextStyle(color: Colors.black),
                     ),
                   ),
                   DropdownMenuItem(
                     value: Routes.weekMenu,
                     child: Text(
-                      'Challenge',
+                      AppStrings.challenge,
                       style: TextStyle(color: Colors.black),
                     ),
                   ),

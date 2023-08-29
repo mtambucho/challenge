@@ -1,12 +1,13 @@
 import 'package:challenge/constants/colors.dart';
+import 'package:challenge/constants/strings.dart';
 import 'package:flutter/material.dart';
 
 enum RecipePortionsChange { add, remove, defaultPortions }
 
 class RecipeDetailsIcons extends StatelessWidget {
   const RecipeDetailsIcons(
-      {super.key, required this.porciones, required this.onChange});
-  final int porciones;
+      {super.key, required this.portions, required this.onChange});
+  final int portions;
   final void Function(RecipePortionsChange) onChange;
   @override
   Widget build(BuildContext context) {
@@ -28,9 +29,8 @@ class RecipeDetailsIcons extends StatelessWidget {
           GestureDetector(
             onTap: () => onChange(RecipePortionsChange.defaultPortions),
             child: _Icon(
-              icon: Icons.restaurant_sharp,
-              text: 'Porciones $porciones',
-            ),
+                icon: Icons.restaurant_sharp,
+                text: AppStrings.portions(portions)),
           ),
           Align(
             alignment: Alignment.bottomCenter,

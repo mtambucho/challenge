@@ -5,14 +5,14 @@ import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/cart/domain/cart_item.dart';
 import 'package:challenge/features/preferences/domain/preferences.dart';
 import 'package:challenge/features/week_menu/domain/day_meals.dart';
-import 'package:challenge/utils/router.dart';
+import 'package:challenge/routing/router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 part 'local_storage_manager.g.dart';
 
 class LocalStorageManager {
-  late SharedPreferences manager;
+  late final SharedPreferences manager;
 
   Future<void> init() async {
     manager = await SharedPreferences.getInstance();
@@ -140,7 +140,7 @@ class LocalStorageManager {
   }
 }
 
-@riverpod
+@Riverpod(keepAlive: true)
 LocalStorageManager localStorageManager(LocalStorageManagerRef ref) {
   return LocalStorageManager();
 }
