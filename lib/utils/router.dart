@@ -1,15 +1,15 @@
-import 'package:challenge/cart/cart_screen.dart';
-import 'package:challenge/choose_reciepes/presentation/choose_recipes_screen.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
-import 'package:challenge/navbar/navbar.dart';
-import 'package:challenge/navbar/scaffold_with_nested_navigation.dart';
-import 'package:challenge/recipe_details/presentation/recipe_details_screen.dart';
-import 'package:challenge/recipes/presentation/recipes_screen.dart';
-import 'package:challenge/settings/settings_screen.dart';
-import 'package:challenge/shopping_list/shopping_list_screen.dart';
-import 'package:challenge/splash_screen.dart';
-import 'package:challenge/week_menu/presentation/week_menu_screen.dart';
+import 'package:challenge/features/cart/presentation/cart_screen.dart';
+import 'package:challenge/features/choose_reciepes/presentation/choose_recipes_screen.dart';
+import 'package:challenge/features/navbar/navbar.dart';
+import 'package:challenge/features/navbar/scaffold_with_nested_navigation.dart';
+import 'package:challenge/features/recipe_details/presentation/recipe_details_screen.dart';
+import 'package:challenge/features/recipes/presentation/recipes_screen.dart';
+import 'package:challenge/features/settings/settings_screen.dart';
+import 'package:challenge/features/shopping_list/shopping_list_screen.dart';
+import 'package:challenge/features/splash/splash_screen.dart';
+import 'package:challenge/features/week_menu/presentation/week_menu_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -21,6 +21,8 @@ final _shellNavigatorChallengeKey =
     GlobalKey<NavigatorState>(debugLabel: 'shellChallenge');
 final _shellNavigatorSettingsKey =
     GlobalKey<NavigatorState>(debugLabel: 'shellSettings');
+final _shellFastingSettingsKey =
+    GlobalKey<NavigatorState>(debugLabel: 'shellFasting');
 final _shellNavigatorExcerciseKey =
     GlobalKey<NavigatorState>(debugLabel: 'shellExcercise');
 
@@ -159,6 +161,7 @@ class Routes {
   static const weekMenu = '/weekMenu';
   static const chooseRecipes = '/chooseRecipes';
   static const settings = '/settings';
+  static const fasting = '/fasting';
   static const defaultPage = Routes.recipes;
 }
 
@@ -203,6 +206,20 @@ extension NavBarNavigation on NavBar {
           routes: [
             GoRoute(
               path: Routes.settings,
+              pageBuilder: (context, state) => const NoTransitionPage(
+                child: SettingsScreen(),
+              ),
+            ),
+          ],
+        ),
+      NavBar.fasting =>
+
+        ///fasting
+        StatefulShellBranch(
+          navigatorKey: _shellFastingSettingsKey,
+          routes: [
+            GoRoute(
+              path: Routes.fasting,
               pageBuilder: (context, state) => const NoTransitionPage(
                 child: SettingsScreen(),
               ),

@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:challenge/utils/colors.dart';
-import 'package:challenge/utils/images.dart';
+import 'package:challenge/constants/colors.dart';
+import 'package:challenge/constants/images.dart';
 import 'package:flutter/material.dart';
 
 enum MealType {
@@ -13,33 +13,23 @@ enum MealType {
 
   @override
   String toString() {
-    switch (this) {
-      case MealType.desayuno:
-        return 'Desayuno';
-      case MealType.colacion:
-        return 'Colación';
-      case MealType.almuerzo:
-        return 'Almuerzo';
-      case MealType.merienda:
-        return 'Merienda';
-      case MealType.cena:
-        return 'Cena';
-    }
+    return switch (this) {
+      MealType.desayuno => 'Desayuno',
+      MealType.colacion => 'Colación',
+      MealType.almuerzo => 'Almuerzo',
+      MealType.merienda => 'Merienda',
+      MealType.cena => 'Cena'
+    };
   }
 
   String imageURL() {
-    switch (this) {
-      case MealType.desayuno:
-        return AppImages.desayuno;
-      case MealType.colacion:
-        return AppImages.colacion;
-      case MealType.almuerzo:
-        return AppImages.almuerzo;
-      case MealType.merienda:
-        return AppImages.merienda;
-      case MealType.cena:
-        return AppImages.cena;
-    }
+    return switch (this) {
+      desayuno => AppImages.desayuno,
+      colacion => AppImages.colacion,
+      almuerzo => AppImages.almuerzo,
+      merienda => AppImages.merienda,
+      cena => AppImages.cena,
+    };
   }
 
   static MealType fromJson(String? json) {
@@ -54,31 +44,21 @@ enum MealType {
   }
 
   String toRawValue() {
-    switch (this) {
-      case MealType.desayuno:
-        return 'desayuno';
-      case MealType.colacion:
-        return 'colacion';
-      case MealType.merienda:
-        return 'merienda';
-      case MealType.almuerzo:
-      case MealType.cena:
-        return 'comida';
-    }
+    return switch (this) {
+      desayuno => 'desayuno',
+      colacion => 'colacion',
+      merienda => 'merienda',
+      almuerzo || cena => 'comida'
+    };
   }
 
   Color color() {
-    switch (this) {
-      case MealType.desayuno:
-        return AppColors.skyBlue;
-      case MealType.colacion:
-        return AppColors.lemon;
-      case MealType.almuerzo:
-        return AppColors.green;
-      case MealType.merienda:
-        return AppColors.blue;
-      case MealType.cena:
-        return AppColors.peach;
-    }
+    return switch (this) {
+      MealType.desayuno => AppColors.skyBlue,
+      MealType.colacion => AppColors.lemon,
+      MealType.almuerzo => AppColors.green,
+      MealType.merienda => AppColors.blue,
+      MealType.cena => AppColors.peach
+    };
   }
 }

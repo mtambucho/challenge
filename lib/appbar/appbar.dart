@@ -1,6 +1,6 @@
-import 'package:challenge/cart/cart_widget.dart';
-import 'package:challenge/favorites/fav_widget.dart';
-import 'package:challenge/utils/colors.dart';
+import 'package:challenge/constants/colors.dart';
+import 'package:challenge/features/cart/presentation/widgets/cart_widget.dart';
+import 'package:challenge/global_widgets/fav_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

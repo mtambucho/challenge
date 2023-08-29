@@ -1,69 +1,33 @@
-import 'package:equatable/equatable.dart';
-import 'package:json_annotation/json_annotation.dart';
+// import 'package:equatable/equatable.dart';
 
+import 'package:freezed_annotation/freezed_annotation.dart';
+
+part 'recipe.freezed.dart';
 part 'recipe.g.dart';
 
-@JsonSerializable()
-class Recipe extends Equatable {
-  @JsonKey(name: 'nombre')
-  final String name;
-  @JsonKey(name: 'descripcion')
-  final String description;
-  @JsonKey(name: 'ingredientes')
-  final List<Ingredient> ingredients;
-  @JsonKey(name: 'rendimiento', defaultValue: 1)
-  final int rendimiento;
-  @JsonKey(name: 'receta')
-  final List<String>? receta;
-
-  const Recipe({
-    required this.name,
-    required this.description,
-    required this.ingredients,
-    required this.rendimiento,
-    this.receta,
-  });
+@freezed
+class Recipe with _$Recipe {
+  factory Recipe({
+    @JsonKey(name: 'nombre') required String name,
+    @JsonKey(name: 'descripcion') required String description,
+    @JsonKey(name: 'ingredientes') required List<Ingredient> ingredients,
+    @JsonKey(name: 'rendimiento', defaultValue: 1) required int rendimiento,
+    @JsonKey(name: 'receta') List<String>? receta,
+  }) = _Recipe;
 
   factory Recipe.fromJson(Map<String, dynamic> json) => _$RecipeFromJson(json);
-
-  Map<String, dynamic> toJson() => _$RecipeToJson(this);
-
-  @override
-  List<Object?> get props => [name];
 }
 
-@JsonSerializable()
-class Ingredient {
-  @JsonKey(name: 'cant', defaultValue: 0.0)
-  final double quantity;
-  @JsonKey(name: 'unit')
-  final String? unit;
-  @JsonKey(name: 'description')
-  final String name;
-
-  Ingredient({
-    required this.quantity,
-    required this.unit,
-    required this.name,
-  });
+@freezed
+class Ingredient with _$Ingredient {
+  factory Ingredient({
+    @JsonKey(name: 'cant', defaultValue: 0.0) required double quantity,
+    @JsonKey(name: 'unit') required String? unit,
+    @JsonKey(name: 'description') required String name,
+  }) = _Ingredient;
 
   factory Ingredient.fromJson(Map<String, dynamic> json) =>
       _$IngredientFromJson(json);
-
-  Map<String, dynamic> toJson() => _$IngredientToJson(this);
-
-  ///create copy with function to copy Ingredient
-  Ingredient copyWith({
-    double? quantity,
-    String? unit,
-    String? name,
-  }) {
-    return Ingredient(
-      quantity: quantity ?? this.quantity,
-      unit: unit ?? this.unit,
-      name: name ?? this.name,
-    );
-  }
 }
 
 class ParseHelper {

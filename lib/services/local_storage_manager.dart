@@ -1,14 +1,15 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:challenge/cart/model/cart_item.dart';
 import 'package:challenge/domain/recipe.dart';
+import 'package:challenge/features/cart/domain/cart_item.dart';
+import 'package:challenge/features/preferences/domain/preferences.dart';
+import 'package:challenge/features/week_menu/domain/day_meals.dart';
 import 'package:challenge/utils/router.dart';
-import 'package:challenge/week_menu/model/day_meals.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../preferences/model/preferences.dart';
+part 'local_storage_manager.g.dart';
 
 class LocalStorageManager {
   late SharedPreferences manager;
@@ -139,7 +140,7 @@ class LocalStorageManager {
   }
 }
 
-///create a provider to get the instance of the LocalStorageManager
-final localStorageManagerProvider = Provider<LocalStorageManager>((ref) {
+@riverpod
+LocalStorageManager localStorageManager(LocalStorageManagerRef ref) {
   return LocalStorageManager();
-});
+}

@@ -1,4 +1,4 @@
-import 'package:challenge/utils/colors.dart';
+import 'package:challenge/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {
