@@ -68,7 +68,7 @@ class _RecipeDetailsScreenState extends State<RecipeDetailsScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    widget.mealType.name.toUpperCase(),
+                    widget.mealType.toString().toUpperCase(),
                     style: RecipeDetailsStyles.mealTypeStyle,
                   ),
                   const SizedBox(height: 8),

@@ -1,16 +1,29 @@
 # challenge
 
-A new Flutter project.
+It's a project that brings together healthy recipes, a 45-day challenge, and intermittent fasting.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Previews
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/mtambucho/challenge/blob/develop/preview1.png" alt="Recipes" width=50% height=50%>
+<img src="https://github.com/mtambucho/challenge/blob/develop/preview2.png" alt="Challenge" width=50% height=50%>
+<img src="https://github.com/mtambucho/challenge/blob/develop/preview3.png" alt="Details" width=50% height=50%>
+<img src="https://github.com/mtambucho/challenge/blob/develop/preview4.png" alt="Cart" width=50% height=50%>
+<img src="https://github.com/mtambucho/challenge/blob/develop/preview5.png" alt="Shopping list" width=50% height=50%>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Current Features
+
+- List of Recipes ✅
+- Challenge ✅
+- Settings ✅
+
+## Planned Features 😅
+
+- Fasting 
+- Search functionality
+- Exceptions
+- Unit Testing
+- Widget Testing
+- Add Firestore

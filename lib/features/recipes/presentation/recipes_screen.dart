@@ -2,7 +2,7 @@ import 'package:challenge/appbar/appbar.dart';
 import 'package:challenge/domain/meal_type.dart';
 import 'package:challenge/domain/recipe.dart';
 import 'package:challenge/features/cart/application/cart_provider.dart';
-import 'package:challenge/features/recipes/aplication/recipes_provider.dart';
+import 'package:challenge/features/recipes/application/recipes_provider.dart';
 import 'package:challenge/features/recipes/presentation/widgets/meals_bubbles.dart';
 import 'package:challenge/features/recipes/presentation/widgets/recipes_item.dart';
 import 'package:challenge/global_widgets/fav_widget.dart';
