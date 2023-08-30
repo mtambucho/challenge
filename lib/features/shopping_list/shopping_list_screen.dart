@@ -55,7 +55,7 @@ class ShoppingListItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final quantity = item.ingredient.quantity;
     final unit = item.ingredient.unit;
-    final subtitle = '${quantity.formatDouble()} $unit';
+    final subtitle = '${quantity.formatDouble()} ${unit ?? ''}';
     return InkWell(
       onTap: () {
         onStatusChanged(item.status == ShoppingListItemStatus.toBuy
